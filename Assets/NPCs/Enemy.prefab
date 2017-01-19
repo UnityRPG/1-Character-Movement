@@ -22,7 +22,6 @@ GameObject:
   - 33: {fileID: 33000013306695936}
   - 136: {fileID: 136000010771121092}
   - 23: {fileID: 23000011750893016}
-  - 114: {fileID: 114000010475929622}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -38,6 +37,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012937604616}
+  - 114: {fileID: 114000010494595158}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -108,12 +108,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010030944164}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114000010475929622
+--- !u!114 &114000010494595158
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010030944164}
+  m_GameObject: {fileID: 1000012507956500}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30cf0e2192e8f8e4d88b08eed86aab5f, type: 3}

@@ -203,15 +203,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010475929622, guid: fa33268947d964142a8268a0d3819ec0,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: zMovementInMeters
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010475929622, guid: fa33268947d964142a8268a0d3819ec0,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: oscillationPeriodInSeconds
-      value: 4.8
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010494595158, guid: fa33268947d964142a8268a0d3819ec0,
+        type: 2}
+      propertyPath: zMovementInMeters
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
@@ -759,10 +762,13 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010475929622, guid: fa33268947d964142a8268a0d3819ec0,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: oscillationPeriodInSeconds
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
@@ -1080,11 +1086,29 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1811546221 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012507956500, guid: fa33268947d964142a8268a0d3819ec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1512562181}
 --- !u!4 &1811546222 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0,
     type: 2}
   m_PrefabInternal: {fileID: 1512562181}
+--- !u!114 &1811546223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1811546221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30cf0e2192e8f8e4d88b08eed86aab5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zMovementInMeters: 0
+  oscillationPeriodInSeconds: 4
 --- !u!1 &2026020964
 GameObject:
   m_ObjectHideFlags: 0
