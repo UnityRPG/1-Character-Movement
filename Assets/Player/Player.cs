@@ -6,20 +6,13 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Player : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	    
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
+    // Toggles the necessary components to switch from gamepad to keyboard control
+    // This method may be called directly from UI control such as a button or toggle
     public void ToggleGamePad()
     {
         print("Toggling gamepad control.");
 
+        // TODO discuss idea of creating a generic ToggleComponent method here.
         AICharacterControl aiCharControl = GetComponent<AICharacterControl>();
         if (aiCharControl.isActiveAndEnabled)
         {
