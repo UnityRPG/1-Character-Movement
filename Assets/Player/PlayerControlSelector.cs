@@ -4,7 +4,7 @@ using System.Collections;
 // Dependencies for gamepad toggling
 using UnityStandardAssets.Characters.ThirdPerson;
 
-public class Player : MonoBehaviour {
+public class PlayerControlSelector : MonoBehaviour {
     
     private void ToggleComponent<T>() where T : MonoBehaviour
     {
