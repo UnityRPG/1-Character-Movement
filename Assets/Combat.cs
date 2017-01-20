@@ -20,9 +20,16 @@ public class Combat : MonoBehaviour {
         if (cursor.GetHighlighted(out hit, Action.Enemy))
         {
             // The enemy should be highlighted
-            var enemy = hit.rigidbody.gameObject;
-            HighlightEnemy(enemy);
+            var enemyRigidBody = hit.rigidbody; // TODO should this be here?
+            if (!enemyRigidBody)
+            {
+                Debug.LogWarning("Check enemy has rigid body");
+                return;
+            }
 
+            var enemy = enemyRigidBody.gameObject;
+            HighlightEnemy(enemy);
+ 
             // If we click on an enemy, our character should:
             if (Input.GetButtonDown(Button.PrimaryAction))
             {

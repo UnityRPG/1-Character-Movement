@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
     {
         print("Toggling gamepad control.");
 
-        // TODO discuss idea of creating a generic ToggleComponent method here.
+        // TODO discuss idea of creating a generic ToggleComponent method here. Use Gameobject or MonoBehavoiur?
         AICharacterControl aiCharControl = GetComponent<AICharacterControl>();
         if (aiCharControl.isActiveAndEnabled)
         {
