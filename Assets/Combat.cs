@@ -17,7 +17,7 @@ public class Combat : MonoBehaviour {
     void Update () {
         // When moused over an enemy:
         RaycastHit hit;
-        if (cursor.GetHighlighted(out hit, Action.Enemy))
+        if (cursor.GetHighlighted(out hit, Layers.Enemy))
         {
             // The enemy should be highlighted
             var enemyRigidBody = hit.rigidbody; // TODO should this be here?
@@ -31,7 +31,7 @@ public class Combat : MonoBehaviour {
             HighlightEnemy(enemy);
  
             // If we click on an enemy, our character should:
-            if (Input.GetButtonDown(Button.PrimaryAction))
+            if (Input.GetButtonDown(Buttons.PrimaryAction))
             {
                 // Move within range of the enemy.
                 agent.SetDestination(hit.point);

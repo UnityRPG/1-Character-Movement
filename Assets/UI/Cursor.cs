@@ -3,16 +3,34 @@ using System.Collections;
 using System;
 
 [Serializable]
-public class Cursor : MonoBehaviour, IRaycaster, IPriorityController {
+public class Cursor : MonoBehaviour {
 
     public string[] layerPriorities { get; set; }
 
     public float maxDistance = 100f;
     Camera viewCamera;
 
-    ActionPrioritiser actionPrioritiser;
+    public RaycastHit? GetHighlighted(string layerName)
+    {
+        foreach (string currentLayerName in layerPriorities)
+        {
+            var hit = RaycastForLayer(currentLayerName);
+            if (hit != null)
+            {
+                if (currentLayerName != layerName)
+                {
+                    return null;
+                }
+                else
+                {
+                    return hit;
+                }
+            }
+        }
+        return null;
+    }
 
-    RaycastHit? IRaycaster.RaycastForLayer(string layerName)
+    RaycastHit? RaycastForLayer(string layerName)
     {
         int layerMask = LayerMask.GetMask(layerName);
         Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
@@ -27,19 +45,16 @@ public class Cursor : MonoBehaviour, IRaycaster, IPriorityController {
 
     void Start ()
     {
-        actionPrioritiser = new ActionPrioritiser();
-        actionPrioritiser.priorityController = this;
-        actionPrioritiser.raycaster = this;
         layerPriorities = new string[] {
-            Action.Enemy,
-            Action.Walkable
+            Layers.Enemy,
+            Layers.Walkable
         };
         viewCamera = Camera.main;
     }
 
     public bool GetHighlighted(out RaycastHit hit, string layerName)
     {
-        var potentialHit = actionPrioritiser.GetHighlighted(layerName);
+        var potentialHit = GetHighlighted(layerName);
         hit = potentialHit ?? new RaycastHit();
         return potentialHit != null;
     }

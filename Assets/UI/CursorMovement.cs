@@ -15,20 +15,20 @@ public class CursorMovement : MonoBehaviour {
         cursor = FindObjectOfType<Cursor>();
 	}
 
-    // Update is called once per frame
-    void Update()
+    void LateUpdate() // Late to prevent presumed race
     {
         RaycastHit hit;
         if (GetValidMoveHit(out hit))
         {
             ShowCursorMarker(hit);
-            if (Input.GetButton(Button.PrimaryAction))
+            if (Input.GetButton(Buttons.PrimaryAction))
             {
                 agent.SetDestination(hit.point);
                 targetMarker.transform.position = cursorMarker.transform.position;
                 targetMarker.transform.rotation = cursorMarker.transform.rotation;
             }
-        } else
+        }
+        else
         {
             HideCursorMarker();
         }
@@ -40,7 +40,7 @@ public class CursorMovement : MonoBehaviour {
 
     private bool GetValidMoveHit(out RaycastHit hit)
     {
-        if (cursor.GetHighlighted(out hit, Action.Walkable))
+        if (cursor.GetHighlighted(out hit, Layers.Walkable))
         {
             bool levelSurface = Vector3.Angle(hit.normal, Vector3.up) < surfaceMaxTiltAngle;
             return levelSurface;
