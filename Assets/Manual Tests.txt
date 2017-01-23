@@ -9,5 +9,8 @@ Format: given, when, then.
 1. When the mouse is over any slope, the cursor matches the slope.
 1. When the mouse is over a "very steep" slope, the cursor hides(1)
 
+## Bugs To Turn Into Tests
+1. When in Gamepad mode movement cursor is not seen.
+
 ## Notes
 1. Consider: In keyboard mode, When the mouse is over a non-navigable slope, the cursor hides.
