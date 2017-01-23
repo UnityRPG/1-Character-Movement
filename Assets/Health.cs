@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour {
 
-	[SerializeField]
-	private float health = 1f;
+	[SerializeField] float health = 1f;
 
 	TextMesh textMesh;
 
@@ -16,7 +15,20 @@ public class Health : MonoBehaviour {
 		
 	// Update is called once per frame
 	void Update () {
-		int healthPercent = (int)(health * 100); // Note bracketing
-		textMesh.text = healthPercent.ToString ();
+		int healthPercent = Mathf.RoundToInt(health * 100); // Note bracketing
+		if (Mathf.Approximately(health, 0f))
+		{
+			textMesh.text = "RIP";
+		}
+		else
+		{
+			textMesh.text = healthPercent.ToString ();
+		}
+	}
+
+
+	public void DealDamage (float amount) {
+		var damageToDeal = (health - amount / 100);
+		health = Mathf.Clamp (damageToDeal, 0f, 1f);
 	}
 }

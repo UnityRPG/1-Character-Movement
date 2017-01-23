@@ -4,20 +4,18 @@ using UnityEngine.AI;
 
 
 public class PlayerCombat : MonoBehaviour {
-    UnityEngine.AI.NavMeshAgent agent;
+	public Material highlightMaterial;
+
+	[SerializeField] float currentRange = 3.0F;
+	[SerializeField] float damagePointsPerHit = 5f;
+	[SerializeField] float hitDelayInSeconds = 0.5f;
+
+	GameObject currentTarget;
+	UnityEngine.AI.NavMeshAgent agent;
     CameraRaycaster cameraRaycaster;
     MeshRenderer previousEnemyRenderer;
     Material previousEnemyMaterial;
-    public Material highlightMaterial;
 	Camera mainCamera;
-
-	[SerializeField]
-	private float currentRange = 3.0F;
-
-	void OnDrawGizmosSelected() {
-		Gizmos.color = Color.white;
-		Gizmos.DrawWireSphere(transform.position, currentRange);
-	}
 
     void Start()
     {
@@ -31,22 +29,26 @@ public class PlayerCombat : MonoBehaviour {
 		var hit = cameraRaycaster.hit;
         if (cameraRaycaster.layerHit == Layer.Enemy)
         {
-			var enemy = cameraRaycaster.hit.collider.gameObject;
-            HighlightEnemy(enemy);
+			currentTarget = cameraRaycaster.hit.collider.gameObject;
+            HighlightEnemy(currentTarget);
  
             // If we click on an enemy, our character should:
             if (Input.GetButtonDown(Buttons.PrimaryAction))
             {
                 // Move within range of the enemy.
-				UnityEngine.AI.NavMeshPath path = new UnityEngine.AI.NavMeshPath();
-				agent.CalculatePath (hit.point, path);
-				if (PathGoesOffScreen (path)) {
-					Debug.LogWarning ("Won't pathfind to enemy via off-screen route");
-				} else {
-					agent.SetPath (path);
-				}
+//				UnityEngine.AI.NavMeshPath path = new UnityEngine.AI.NavMeshPath();
+//				agent.CalculatePath (hit.point, path);
+//				agent.radius = currentRange;
+//				if (PathGoesOffScreen (path)) {
+//					Debug.LogWarning ("Won't pathfind to enemy via off-screen route");
+//					agent.Move (new Vector3 (1, 1, 1));
+//				} else {
+//					agent.SetPath (path);
+//				}
 
                 // Perform an attack on the enemy.
+				CancelInvoke();
+				InvokeRepeating ("DealDamage", 0f, hitDelayInSeconds);
             }
         }
         else
@@ -55,6 +57,11 @@ public class PlayerCombat : MonoBehaviour {
             UnhighlightEnemy();
         }
     }
+
+	private void DealDamage ()
+	{
+		currentTarget.GetComponentInParent<Health>().DealDamage(damagePointsPerHit);
+	}
 
 	private bool PathGoesOffScreen(NavMeshPath path) {
 		Vector3[] pathCorners = new Vector3[4];
@@ -66,14 +73,6 @@ public class PlayerCombat : MonoBehaviour {
 			}
 		}
 		return false;
-	}
-
-
-	// Gets the position from where the agent should range attach
-	private Vector3 GetRangeAttackPosition()
-	{
-		return Vector3.zero; // TODO impliment
-		
 	}
 
     private void UnhighlightEnemy()

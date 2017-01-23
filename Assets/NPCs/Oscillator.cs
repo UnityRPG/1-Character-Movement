@@ -3,11 +3,8 @@ using System.Collections;
 
 public class Oscillator : MonoBehaviour
 {
-    [SerializeField]
-    private float zMovementInMeters; // default to 0
-
-    [SerializeField] [Range(0.5f, 60)]  // Note cannot be 0
-    private float oscillationPeriodInSeconds = 4.0f;
+    [SerializeField] float zMovementInMeters; // default to 0
+    [SerializeField] [Range(0.5f, 60)] float oscillationPeriodInSeconds = 4.0f;
 
     // Update is called once per frame
     void Update()
