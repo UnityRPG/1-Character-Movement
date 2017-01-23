@@ -40,11 +40,14 @@ public class CursorMovement : MonoBehaviour {
 
     private bool GetValidMoveHit(out RaycastHit hit)
     {
-        if (cursor.GetHighlighted(out hit, Layer.Walkable))
+        var result = cursor.LookForPriorities();
+        if (result.HasValue && result.Value.layer == Layer.Walkable)
         {
+            hit = result.Value.raycastHit;
             bool levelSurface = Vector3.Angle(hit.normal, Vector3.up) < surfaceMaxTiltAngle;
             return levelSurface;
         }
+        hit = new RaycastHit();
         return false;
     }
 

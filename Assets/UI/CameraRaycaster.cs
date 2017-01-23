@@ -10,36 +10,32 @@ public class CameraRaycaster : MonoBehaviour {
     float maxDistance = 100f;
     Camera viewCamera;
 
-    private RaycastHit? GetHighlighted(Layer layerName)
+    public struct TopHitResult
     {
-        foreach (Layer currentLayerName in layerPriorities)
+        public TopHitResult(Layer layer, RaycastHit hit)
         {
-            var hit = RaycastForLayer(currentLayerName);
-            if (hit != null)
-            {
-                if (currentLayerName != layerName)
-                {
-                    return null;
-                }
-                else
-                {
-                    return hit;
-                }
+            this.layer = layer;
+            this.raycastHit = hit;
+        }
+        public Layer layer;
+        public RaycastHit raycastHit;
+    }
+
+    public TopHitResult? LookForPriorities()
+    {
+        foreach (Layer layer in layerPriorities)
+        {
+            var hit = RaycastForLayer(layer);
+            if (hit.HasValue) {
+                return new TopHitResult(layer, hit.Value); ;
             }
         }
         return null;
     }
 
-    public bool GetHighlighted(out RaycastHit hit, Layer layerName)
+    RaycastHit? RaycastForLayer(Layer layer)
     {
-        var potentialHit = GetHighlighted(layerName);
-        hit = potentialHit ?? new RaycastHit();
-        return potentialHit != null;
-    }
-
-    RaycastHit? RaycastForLayer(Layer layerName)
-    {
-        int layerMask = 1 << (int)layerName;
+        int layerMask = 1 << (int)layer;
         Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         bool hasHit = Physics.Raycast(ray, out hit, maxDistance, layerMask);

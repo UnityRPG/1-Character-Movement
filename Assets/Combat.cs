@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Combat : MonoBehaviour {
     NavMeshAgent agent;
-    CameraRaycaster cursor;
+    CameraRaycaster cameraRaycaster;
     MeshRenderer previousEnemyRenderer;
     Material previousEnemyMaterial;
     public Material highlightMaterial;
@@ -12,15 +12,18 @@ public class Combat : MonoBehaviour {
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        cursor = FindObjectOfType<CameraRaycaster>();
+        cameraRaycaster = FindObjectOfType<CameraRaycaster>();
     }
 
     void Update () {
         // When moused over an enemy:
-        RaycastHit hit;
-        if (cursor.GetHighlighted(out hit, Layer.Enemy))
+        var topHit = cameraRaycaster.LookForPriorities();
+        if (!topHit.HasValue) { return; }
+
+        if (topHit.Value.layer == Layer.Enemy)
         {
-            // The enemy should be highlighted
+            
+            var hit = topHit.Value.raycastHit;
             var enemyRigidBody = hit.rigidbody; // TODO should this be here?
             if (!enemyRigidBody)
             {
