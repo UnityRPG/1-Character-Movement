@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.AI;
 
 
 public class PlayerCombat : MonoBehaviour {
@@ -8,11 +9,21 @@ public class PlayerCombat : MonoBehaviour {
     MeshRenderer previousEnemyRenderer;
     Material previousEnemyMaterial;
     public Material highlightMaterial;
+	Camera mainCamera;
+
+	[SerializeField]
+	private float currentRange = 3.0F;
+
+	void OnDrawGizmosSelected() {
+		Gizmos.color = Color.white;
+		Gizmos.DrawWireSphere(transform.position, currentRange);
+	}
 
     void Start()
     {
-        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         cameraRaycaster = FindObjectOfType<CameraRaycaster>();
+		mainCamera = FindObjectOfType<Camera> ();
     }
 
     void Update () {
@@ -34,7 +45,14 @@ public class PlayerCombat : MonoBehaviour {
             if (Input.GetButtonDown(Buttons.PrimaryAction))
             {
                 // Move within range of the enemy.
-                agent.SetDestination(hit.point);
+				UnityEngine.AI.NavMeshPath path = new UnityEngine.AI.NavMeshPath();
+				agent.CalculatePath (hit.point, path);
+				if (PathGoesOffScreen (path)) {
+					Debug.LogWarning ("Won't pathfind off screen");
+				} else {
+					agent.SetPath (path);
+				}
+
                 // Perform an attack on the enemy.
             }
         }
@@ -45,6 +63,25 @@ public class PlayerCombat : MonoBehaviour {
         }
     }
 
+	private bool PathGoesOffScreen(NavMeshPath path) {
+		Vector3[] pathCorners = new Vector3[4];
+		path.GetCornersNonAlloc (pathCorners);
+		foreach (Vector3 corner in pathCorners) {
+			var screenPoint = mainCamera.WorldToScreenPoint (corner);
+			if (screenPoint.x < 0f || screenPoint.y < 0f) { // Trying to route off screen
+				return true;
+			}
+		}
+		return false;
+	}
+
+
+	// Gets the position from where the agent should range attach
+	private Vector3 GetRangeAttackPosition()
+	{
+		return Vector3.zero; // TODO impliment
+		
+	}
 
     private void UnhighlightEnemy()
     {

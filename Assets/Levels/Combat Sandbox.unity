@@ -90,7 +90,7 @@ NavMeshSettings:
     manualCellSize: 0
     cellSize: 0.16666667
     accuratePlacement: 0
-  m_NavMeshData: {fileID: 23800000, guid: c99f65ee3ccf57440b15f03dcab8caae, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 2411abf8ba85d409d9fa95769f1a00f0, type: 2}
 --- !u!1001 &379006573
 Prefab:
   m_ObjectHideFlags: 0
@@ -492,11 +492,11 @@ GameObject:
   - component: {fileID: 1422946380}
   - component: {fileID: 1422946379}
   - component: {fileID: 1422946378}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &1422946378
