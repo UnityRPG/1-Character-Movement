@@ -6,12 +6,12 @@ public class CursorMovement : MonoBehaviour {
     public GameObject cursorMarker;
     public GameObject targetMarker;
     public float surfaceMaxTiltAngle = 45; // TODO use navmesh settings
-    NavMeshAgent agent;
+    UnityEngine.AI.NavMeshAgent agent;
     CameraRaycaster cameraRaycaster;
 
 	// Use this for initialization
 	void Start () {
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         cameraRaycaster = FindObjectOfType<CameraRaycaster>();
 	}
 

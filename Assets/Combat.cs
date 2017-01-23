@@ -3,7 +3,7 @@ using System.Collections;
 
 
 public class Combat : MonoBehaviour {
-    NavMeshAgent agent;
+    UnityEngine.AI.NavMeshAgent agent;
     CameraRaycaster cameraRaycaster;
     MeshRenderer previousEnemyRenderer;
     Material previousEnemyMaterial;
@@ -11,7 +11,7 @@ public class Combat : MonoBehaviour {
 
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         cameraRaycaster = FindObjectOfType<CameraRaycaster>();
     }
 
