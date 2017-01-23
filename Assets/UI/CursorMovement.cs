@@ -7,12 +7,12 @@ public class CursorMovement : MonoBehaviour {
     public GameObject targetMarker;
     public float surfaceMaxTiltAngle = 45; // TODO use navmesh settings
     NavMeshAgent agent;
-    CameraRaycaster cursor;
+    CameraRaycaster cameraRaycaster;
 
 	// Use this for initialization
 	void Start () {
         agent = GetComponent<NavMeshAgent>();
-        cursor = FindObjectOfType<CameraRaycaster>();
+        cameraRaycaster = FindObjectOfType<CameraRaycaster>();
 	}
 
     void LateUpdate() // Late to prevent presumed race
@@ -40,10 +40,9 @@ public class CursorMovement : MonoBehaviour {
 
     private bool GetValidMoveHit(out RaycastHit hit)
     {
-        var result = cursor.LookForPriorities();
-        if (result.HasValue && result.Value.layer == Layer.Walkable)
+        if (cameraRaycaster.layerHit == Layer.Walkable)
         {
-            hit = result.Value.raycastHit;
+            hit = cameraRaycaster.hit;
             bool levelSurface = Vector3.Angle(hit.normal, Vector3.up) < surfaceMaxTiltAngle;
             return levelSurface;
         }

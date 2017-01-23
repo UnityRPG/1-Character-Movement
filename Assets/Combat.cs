@@ -17,13 +17,9 @@ public class Combat : MonoBehaviour {
 
     void Update () {
         // When moused over an enemy:
-        var topHit = cameraRaycaster.LookForPriorities();
-        if (!topHit.HasValue) { return; }
-
-        if (topHit.Value.layer == Layer.Enemy)
+        if (cameraRaycaster.layerHit == Layer.Enemy)
         {
-            
-            var hit = topHit.Value.raycastHit;
+            var hit = cameraRaycaster.hit;
             var enemyRigidBody = hit.rigidbody; // TODO should this be here?
             if (!enemyRigidBody)
             {

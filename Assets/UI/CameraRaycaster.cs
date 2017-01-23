@@ -7,30 +7,44 @@ public class CameraRaycaster : MonoBehaviour {
         Layer.Walkable
     };
 
-    float maxDistance = 100f;
+    float distanceToBackground = 100f;
     Camera viewCamera;
 
-    public struct TopHitResult
+    RaycastHit m_hit;
+    public RaycastHit hit
     {
-        public TopHitResult(Layer layer, RaycastHit hit)
-        {
-            this.layer = layer;
-            this.raycastHit = hit;
-        }
-        public Layer layer;
-        public RaycastHit raycastHit;
+        get { return m_hit; }
     }
 
-    public TopHitResult? LookForPriorities()
+    Layer m_layerHit;
+    public Layer layerHit
     {
+        get { return m_layerHit; }
+    }
+    
+    void Start() // TODO Awake?
+    {
+        viewCamera = Camera.main;
+    }
+
+    void Update()
+    {
+        // Look for and return priority layer hit
         foreach (Layer layer in layerPriorities)
         {
             var hit = RaycastForLayer(layer);
-            if (hit.HasValue) {
-                return new TopHitResult(layer, hit.Value); ;
+            if (hit.HasValue)
+            {
+                // set layer and hit
+                m_hit = hit.Value;
+                m_layerHit = layer;
+                return;
             }
         }
-        return null;
+
+        // Otherwise return background hit
+        m_hit.distance = distanceToBackground;
+        m_layerHit = Layer.RaycastEndStop;
     }
 
     RaycastHit? RaycastForLayer(Layer layer)
@@ -38,18 +52,11 @@ public class CameraRaycaster : MonoBehaviour {
         int layerMask = 1 << (int)layer;
         Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        bool hasHit = Physics.Raycast(ray, out hit, maxDistance, layerMask);
+        bool hasHit = Physics.Raycast(ray, out hit, distanceToBackground, layerMask);
         if (hasHit)
         {
             return hit;
         }
         return null;
     }
-
-    void Start ()
-    {
-        viewCamera = Camera.main;
-    }
-
-
 }
