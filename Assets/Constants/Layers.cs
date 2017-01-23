@@ -1,5 +1,6 @@
-﻿public static class Layers
+﻿public enum Layer
 {
-    public const string Walkable = "Walkable";
-    public const string Enemy = "Enemy";
+    Walkable = 8,
+    Character = 9,
+    Enemy = 10
 }

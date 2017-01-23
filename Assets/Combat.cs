@@ -18,7 +18,7 @@ public class Combat : MonoBehaviour {
     void Update () {
         // When moused over an enemy:
         RaycastHit hit;
-        if (cursor.GetHighlighted(out hit, Layers.Enemy))
+        if (cursor.GetHighlighted(out hit, Layer.Enemy))
         {
             // The enemy should be highlighted
             var enemyRigidBody = hit.rigidbody; // TODO should this be here?

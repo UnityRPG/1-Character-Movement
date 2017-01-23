@@ -40,7 +40,7 @@ public class CursorMovement : MonoBehaviour {
 
     private bool GetValidMoveHit(out RaycastHit hit)
     {
-        if (cursor.GetHighlighted(out hit, Layers.Walkable))
+        if (cursor.GetHighlighted(out hit, Layer.Walkable))
         {
             bool levelSurface = Vector3.Angle(hit.normal, Vector3.up) < surfaceMaxTiltAngle;
             return levelSurface;

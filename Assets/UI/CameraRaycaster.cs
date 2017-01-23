@@ -2,17 +2,17 @@
 
 public class CameraRaycaster : MonoBehaviour {
 
-    public string[] layerPriorities = {
-        Layers.Enemy,
-        Layers.Walkable
+    public Layer[] layerPriorities = {
+        Layer.Enemy,
+        Layer.Walkable
     };
 
     float maxDistance = 100f;
     Camera viewCamera;
 
-    private RaycastHit? GetHighlighted(string layerName)
+    private RaycastHit? GetHighlighted(Layer layerName)
     {
-        foreach (string currentLayerName in layerPriorities)
+        foreach (Layer currentLayerName in layerPriorities)
         {
             var hit = RaycastForLayer(currentLayerName);
             if (hit != null)
@@ -30,16 +30,16 @@ public class CameraRaycaster : MonoBehaviour {
         return null;
     }
 
-    public bool GetHighlighted(out RaycastHit hit, string layerName)
+    public bool GetHighlighted(out RaycastHit hit, Layer layerName)
     {
         var potentialHit = GetHighlighted(layerName);
         hit = potentialHit ?? new RaycastHit();
         return potentialHit != null;
     }
 
-    RaycastHit? RaycastForLayer(string layerName)
+    RaycastHit? RaycastForLayer(Layer layerName)
     {
-        int layerMask = LayerMask.GetMask(layerName);
+        int layerMask = 1 << (int)layerName;
         Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         bool hasHit = Physics.Raycast(ray, out hit, maxDistance, layerMask);
