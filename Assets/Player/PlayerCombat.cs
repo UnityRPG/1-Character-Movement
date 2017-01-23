@@ -28,17 +28,10 @@ public class PlayerCombat : MonoBehaviour {
 
     void Update () {
         // When moused over an enemy:
+		var hit = cameraRaycaster.hit;
         if (cameraRaycaster.layerHit == Layer.Enemy)
         {
-            var hit = cameraRaycaster.hit;
-            var enemyRigidBody = hit.rigidbody; // TODO should this be here?
-            if (!enemyRigidBody)
-            {
-                Debug.LogWarning("Check enemy has rigid body");
-                return;
-            }
-
-            var enemy = enemyRigidBody.gameObject;
+			var enemy = cameraRaycaster.hit.collider.gameObject;
             HighlightEnemy(enemy);
  
             // If we click on an enemy, our character should:
@@ -48,7 +41,7 @@ public class PlayerCombat : MonoBehaviour {
 				UnityEngine.AI.NavMeshPath path = new UnityEngine.AI.NavMeshPath();
 				agent.CalculatePath (hit.point, path);
 				if (PathGoesOffScreen (path)) {
-					Debug.LogWarning ("Won't pathfind off screen");
+					Debug.LogWarning ("Won't pathfind to enemy via off-screen route");
 				} else {
 					agent.SetPath (path);
 				}

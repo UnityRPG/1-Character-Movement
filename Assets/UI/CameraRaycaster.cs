@@ -38,7 +38,7 @@ public class CameraRaycaster : MonoBehaviour {
                 // set layer and hit
                 m_hit = hit.Value;
                 m_layerHit = layer;
-                return;
+                return; // exit method
             }
         }
 

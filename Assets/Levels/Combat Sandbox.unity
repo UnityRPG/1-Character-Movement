@@ -439,19 +439,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: zMovementInMeters
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: oscillationPeriodInSeconds
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010494595158, guid: fa33268947d964142a8268a0d3819ec0,
-        type: 2}
-      propertyPath: zMovementInMeters
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1000012507956500, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
       propertyPath: m_Name
       value: Enemy (1)
