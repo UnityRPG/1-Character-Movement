@@ -1,0 +1,13 @@
+# The Tests That Should Pass
+Format: given, when, then.
+
+## When In Keyboard Mode Only
+1. When the player moves, then mouse the cursor moves smoothly.
+1. When the cursor passes over an enemy, the enemy highlights.
+1. When the cursor passes over an enemy, the cursor disappears.
+1. When the ground is clicked, the player moves to the position.
+1. When the mouse is over any slope, the cursor matches the slope.
+1. When the mouse is over a "very steep" slope, the cursor hides(1)
+
+## Notes
+1. Consider: In keyboard mode, When the mouse is over a non-navigable slope, the cursor hides.

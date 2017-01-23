@@ -5,14 +5,14 @@ public class CursorMovement : MonoBehaviour {
 
     public GameObject cursorMarker;
     public GameObject targetMarker;
-    public float surfaceMaxTiltAngle = 45;
+    public float surfaceMaxTiltAngle = 45; // TODO use navmesh settings
     NavMeshAgent agent;
-    Cursor cursor;
+    CameraRaycaster cursor;
 
 	// Use this for initialization
 	void Start () {
         agent = GetComponent<NavMeshAgent>();
-        cursor = FindObjectOfType<Cursor>();
+        cursor = FindObjectOfType<CameraRaycaster>();
 	}
 
     void LateUpdate() // Late to prevent presumed race

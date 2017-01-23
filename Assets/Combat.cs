@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Combat : MonoBehaviour {
     NavMeshAgent agent;
-    Cursor cursor;
+    CameraRaycaster cursor;
     MeshRenderer previousEnemyRenderer;
     Material previousEnemyMaterial;
     public Material highlightMaterial;
@@ -11,7 +12,7 @@ public class Combat : MonoBehaviour {
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        cursor = FindObjectOfType<Cursor>();
+        cursor = FindObjectOfType<CameraRaycaster>();
     }
 
     void Update () {
@@ -44,6 +45,7 @@ public class Combat : MonoBehaviour {
             UnhighlightEnemy();
         }
     }
+
 
     private void UnhighlightEnemy()
     {

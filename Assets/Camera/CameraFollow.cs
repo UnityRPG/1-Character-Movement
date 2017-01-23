@@ -7,11 +7,11 @@ public class CameraFollow : MonoBehaviour {
 	
     void Start ()
     {
+        // Find with tag as Player class isn't very "componenty"
         player = GameObject.FindWithTag("Player");
     }
 
-	void Update () {
-        var targetPosition = player.transform.position;
-        transform.position = targetPosition;
+	void Update () { // Cursor is taking LateUpdate to prevent race
+        transform.position = player.transform.position;
 	}
 }
