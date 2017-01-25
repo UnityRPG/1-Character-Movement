@@ -6,17 +6,17 @@ namespace RPG
     [RequireComponent(typeof (ThirdPersonCharacter))]
     public class PlayerMovement : MonoBehaviour
     {
-        [SerializeField]
-        float currentWeaponRange = 4f;
+        public static bool isInDirectMode = false;  // TODO consider setter later
 
-        ThirdPersonCharacter m_Character; // A reference to the ThirdPersonCharacter on the object
+        [SerializeField] float attackMoveStopRadius = 4f;
+        [SerializeField] float walkMoveStopRadius = 0.2f;
+
+        ThirdPersonCharacter m_Character;   // A reference to the ThirdPersonCharacter on the object
         Camera mainCamera;                  // A reference to the main camera in the scenes transform
         CameraRaycaster cameraRaycaster;
         Vector3 currentClickTarget;
         float currentClickRange = 1f;
-        Vector3 playerToClickPoint = Vector3.zero;
-        public static bool isInDirectMode = false;
-
+        
         private void Start()
         {
             mainCamera = Camera.main;
@@ -31,7 +31,6 @@ namespace RPG
             if (Input.GetKeyDown(KeyCode.D))
             {
                 isInDirectMode = !isInDirectMode;
-                print("Is in direct control mode: " + isInDirectMode);
             }
 
             if (isInDirectMode) {
@@ -47,29 +46,28 @@ namespace RPG
         {
             if (Input.GetMouseButton(0))
             {
-                currentClickTarget = cameraRaycaster.hit.point;
                 switch (cameraRaycaster.layerHit)
                 {
                     case Layer.Walkable:
-                        currentClickRange = 0f;
+                        currentClickRange = walkMoveStopRadius;
                         break;
                     case Layer.Enemy:
-                        currentClickRange = currentWeaponRange;
+                        currentClickRange = attackMoveStopRadius;
                         break;
                     default:
-                        currentClickRange = 0f;
-                        break;
+                        return; // Do nothing clicking outside world
                 }
+                currentClickTarget = cameraRaycaster.hit.point;  // So not set in default case
             }
 
-            playerToClickPoint = transform.position - currentClickTarget;
+            var playerToClickPoint = transform.position - currentClickTarget;
             if (playerToClickPoint.magnitude >= currentClickRange)
             {
-                m_Character.Move(currentClickTarget - transform.position, false, false);
+                m_Character.SetMovementDirection(currentClickTarget - transform.position, false, false);
             }
             else
             {
-                m_Character.Move(Vector3.zero, false, false);
+                m_Character.SetMovementDirection(Vector3.zero, false, false);
             }
         }
 
@@ -84,7 +82,7 @@ namespace RPG
             Vector3 m_Move = v * camForward + h * mainCamera.transform.right;
 
             // pass all parameters to the character control script#
-            m_Character.Move(m_Move, false, false); 
+            m_Character.SetMovementDirection(m_Move, false, false); 
         }
     }
 }

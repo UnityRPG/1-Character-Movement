@@ -11,13 +11,14 @@ namespace RPG
         [SerializeField] Vector2 cursorCenterFromTopLeft = new Vector2(96, 96);
 
         CameraRaycaster cameraRaycaster;
+
+        // TODO consider factoring-out once enemies highlight by gamepad
         MeshRenderer previousEnemyRenderer;
         Material previousEnemyMaterial;
-        // PlayerMovement playerMovement;
 
         void Start()
         {
-            cameraRaycaster = FindObjectOfType<CameraRaycaster>();
+            cameraRaycaster = GetComponent<CameraRaycaster>();
         }
 
         void FixedUpdate()
