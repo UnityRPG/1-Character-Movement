@@ -1049,7 +1049,6 @@ GameObject:
   - component: {fileID: 54000010402179426}
   - component: {fileID: 136000011678473126}
   - component: {fileID: 114000011250253890}
-  - component: {fileID: 114000010934903392}
   - component: {fileID: 114308436052951310}
   m_Layer: 9
   m_Name: Player
@@ -2091,7 +2090,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013117817546}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.69, y: 0, z: -11.27}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000011994389590}
@@ -2656,21 +2655,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114000010934903392
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013117817546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b1aba8f7a31c0345b344fce1b70bb8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: 1369e525daf437c469ce59f6122a7e49, type: 2}
-  walkCursor: {fileID: 0}
-  targetCursor: {fileID: 0}
-  unknownCursor: {fileID: 0}
 --- !u!114 &114000011250253890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2701,7 +2685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d5b35af7adae249a796edb5e863fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isInDirectMode: 0
   currentWeaponRange: 4
 --- !u!119 &119000012118879372
 Projector:
@@ -2717,7 +2700,7 @@ Projector:
   m_AspectRatio: 1
   m_Orthographic: 1
   m_OrthographicSize: 1.04
-  m_Material: {fileID: 2100000, guid: c8c80c5b03f5c7e40b07eb2170e667e5, type: 2}
+  m_Material: {fileID: 0}
   m_IgnoreLayers:
     serializedVersion: 2
     m_Bits: 512
@@ -2727,7 +2710,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013117817546}
-  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.3

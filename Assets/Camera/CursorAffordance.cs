@@ -5,9 +5,10 @@ namespace RPG
     public class CursorAffordance : MonoBehaviour
     {
         public Material highlightMaterial;
-        [SerializeField] private Texture2D walkCursor = null;
-        [SerializeField] private Texture2D targetCursor = null;
-        [SerializeField] private Texture2D unknownCursor = null;
+        [SerializeField] Texture2D walkCursor = null;
+        [SerializeField] Texture2D targetCursor = null;
+        [SerializeField] Texture2D unknownCursor = null;
+        [SerializeField] Vector2 cursorCenterFromTopLeft = new Vector2(96, 96);
 
         CameraRaycaster cameraRaycaster;
         MeshRenderer previousEnemyRenderer;
@@ -37,14 +38,14 @@ namespace RPG
             switch (cameraRaycaster.layerHit)
             {
                 case Layer.Walkable:
-                    Cursor.SetCursor(walkCursor, Vector2.zero, CursorMode.Auto);
+                    Cursor.SetCursor(walkCursor, cursorCenterFromTopLeft, CursorMode.Auto);
                     break;
                 case Layer.Enemy:
                     HighlightEnemy(cameraRaycaster.hit.collider.gameObject);
-                    Cursor.SetCursor(targetCursor, Vector2.zero, CursorMode.Auto);
+                    Cursor.SetCursor(targetCursor, cursorCenterFromTopLeft, CursorMode.Auto);
                     break;
                 default:
-                    Cursor.SetCursor(unknownCursor, Vector2.zero, CursorMode.Auto);
+                    Cursor.SetCursor(unknownCursor, cursorCenterFromTopLeft, CursorMode.Auto);
                     break;
             }
         }
