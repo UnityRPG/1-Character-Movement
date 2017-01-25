@@ -158,9 +158,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightMaterial: {fileID: 2100000, guid: 1369e525daf437c469ce59f6122a7e49, type: 2}
-  walkCursor: {fileID: 2800000, guid: c1d5b4f98511dd043ab7d6c438d99fea, type: 3}
-  targetCursor: {fileID: 2800000, guid: 884ea7cdc6afb55458109d01d8c71434, type: 3}
-  unknownCursor: {fileID: 2800000, guid: 4e50858c7d781ea488e5d59611ae77f8, type: 3}
+  walkCursor: {fileID: 2800000, guid: 67809b6c02ff3344f9d79cb074682a0b, type: 3}
+  targetCursor: {fileID: 2800000, guid: b294335b281bb124d899c2594cefc46e, type: 3}
+  unknownCursor: {fileID: 2800000, guid: de910a44076dd034383a28f5ee13bc69, type: 3}
+  cursorCenterFromTopLeft: {x: 0, y: 0}
 --- !u!124 &124000013565631598
 Behaviour:
   m_ObjectHideFlags: 1
