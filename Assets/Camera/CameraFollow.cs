@@ -11,7 +11,7 @@ public class CameraFollow : MonoBehaviour {
         player = GameObject.FindWithTag("Player");
     }
 
-	void Update () { // Cursor is taking LateUpdate to prevent race
-        transform.position = player.transform.position;
+	void LateUpdate () { // Modelled from UnityStandardAssets.Utility FollowTarget
+        transform.position = player.transform.position; 
 	}
 }

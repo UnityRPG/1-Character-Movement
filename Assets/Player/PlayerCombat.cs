@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.AI;
-
+using RPG;
 
 public class PlayerCombat : MonoBehaviour {
 	public Material highlightMaterial;
