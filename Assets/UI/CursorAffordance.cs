@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
-using UnityEngine.AI;
 
 namespace RPG
 {
@@ -12,16 +10,25 @@ namespace RPG
         CameraRaycaster cameraRaycaster;
         MeshRenderer previousEnemyRenderer;
         Material previousEnemyMaterial;
-        Camera mainCamera;
+        // PlayerMovement playerMovement;
 
         void Start()
         {
             cameraRaycaster = FindObjectOfType<CameraRaycaster>();
-            mainCamera = FindObjectOfType<Camera>();
         }
 
         void FixedUpdate()
         {
+            if (PlayerMovement.isInDirectMode)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                return;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+
             var hit = cameraRaycaster.hit; // Read current state
             UnhighlightEnemy();
 

@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -192,7 +192,7 @@ Prefab:
         type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 481157385}
+      objectReference: {fileID: 0}
     - target: {fileID: 114676662729158722, guid: 75a43cca039264395b99698681e52275,
         type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -202,6 +202,10 @@ Prefab:
       propertyPath: m_Name
       value: Gamepad Toggle
       objectReference: {fileID: 0}
+    - target: {fileID: 1653876244793134, guid: 75a43cca039264395b99698681e52275, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75a43cca039264395b99698681e52275, type: 2}
   m_IsPrefabParent: 0
@@ -210,58 +214,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0,
     type: 2}
   m_PrefabInternal: {fileID: 880937765}
---- !u!1001 &417739917
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 779531922}
-    m_Modifications:
-    - target: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.6414294
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.8882601
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -5.308649
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000012507956500, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-      propertyPath: m_Name
-      value: Enemy (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
-  m_IsPrefabParent: 0
---- !u!114 &481157385 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114000013680053050, guid: 479fc7dc5d3dde74b83a8709bd191471,
-    type: 2}
-  m_PrefabInternal: {fileID: 1608189431}
-  m_Script: {fileID: 11500000, guid: 1d019ccb870d8ec4fbf6715686fecf18, type: 3}
 --- !u!1 &697506175
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +354,10 @@ Prefab:
       propertyPath: layerPriorities.Array.data[2]
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014034666934, guid: 1e4b7d0b0904ccc418197ab9d36e8ac7, type: 2}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e4b7d0b0904ccc418197ab9d36e8ac7, type: 2}
   m_IsPrefabParent: 0
@@ -432,7 +388,6 @@ Transform:
   m_Children:
   - {fileID: 1473376883}
   - {fileID: 129424662}
-  - {fileID: 1984427754}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1025,28 +980,7 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: -0.110415146
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010934903392, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: highlightMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 1369e525daf437c469ce59f6122a7e49, type: 2}
-    - target: {fileID: 114000010176561492, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010237697968, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000013680053050, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114000011213711128, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1637613810
@@ -1172,8 +1106,3 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa33268947d964142a8268a0d3819ec0, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1984427754 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4000012937604616, guid: fa33268947d964142a8268a0d3819ec0,
-    type: 2}
-  m_PrefabInternal: {fileID: 417739917}

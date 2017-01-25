@@ -2091,7 +2091,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013117817546}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.69, y: 0, z: -11.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000011994389590}
@@ -2668,9 +2668,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightMaterial: {fileID: 2100000, guid: 1369e525daf437c469ce59f6122a7e49, type: 2}
-  currentRange: 3
-  damagePointsPerHit: 5
-  hitDelayInSeconds: 0.5
+  walkCursor: {fileID: 0}
+  targetCursor: {fileID: 0}
+  unknownCursor: {fileID: 0}
 --- !u!114 &114000011250253890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2701,6 +2701,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d5b35af7adae249a796edb5e863fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInDirectMode: 0
+  currentWeaponRange: 4
 --- !u!119 &119000012118879372
 Projector:
   m_ObjectHideFlags: 1

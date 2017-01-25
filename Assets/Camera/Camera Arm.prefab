@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 124000013565631598}
   - component: {fileID: 81000011050233872}
   - component: {fileID: 114000010061831652}
+  - component: {fileID: 114055090941871856}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -145,6 +146,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5918279045b83f74193bc2a0d6c23936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114055090941871856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014034666934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1aba8f7a31c0345b344fce1b70bb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: 1369e525daf437c469ce59f6122a7e49, type: 2}
+  walkCursor: {fileID: 2800000, guid: c1d5b4f98511dd043ab7d6c438d99fea, type: 3}
+  targetCursor: {fileID: 2800000, guid: 884ea7cdc6afb55458109d01d8c71434, type: 3}
+  unknownCursor: {fileID: 2800000, guid: 4e50858c7d781ea488e5d59611ae77f8, type: 3}
 --- !u!124 &124000013565631598
 Behaviour:
   m_ObjectHideFlags: 1
