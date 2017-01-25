@@ -5,7 +5,9 @@ namespace RPG
     public class CursorAffordance : MonoBehaviour
     {
         public Material highlightMaterial;
-        [SerializeField] private Texture2D walkCursor, targetCursor, unknownCursor;
+        [SerializeField] private Texture2D walkCursor = null;
+        [SerializeField] private Texture2D targetCursor = null;
+        [SerializeField] private Texture2D unknownCursor = null;
 
         CameraRaycaster cameraRaycaster;
         MeshRenderer previousEnemyRenderer;

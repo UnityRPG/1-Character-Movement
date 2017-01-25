@@ -23,7 +23,6 @@ namespace RPG
             cameraRaycaster = mainCamera.GetComponent<CameraRaycaster>();
             m_Character = GetComponent<ThirdPersonCharacter>();
             currentClickTarget = transform.position;
-            print("Press D to enter direct control mode (WSAD or gamepad)");
         }
 
         // Fixed update is called in sync with physics
