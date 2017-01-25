@@ -1,17 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraFollow : MonoBehaviour {
-
-    GameObject player;
-	
-    void Start ()
+namespace RPG
+{
+    public class CameraFollow : MonoBehaviour
     {
-        // Find with tag as Player class isn't very "componenty"
-        player = GameObject.FindWithTag("Player");
-    }
 
-	void LateUpdate () { // Modelled from UnityStandardAssets.Utility FollowTarget
-        transform.position = player.transform.position; 
-	}
+        GameObject player;
+
+        void Start()
+        {
+            player = GameObject.FindWithTag("Player");
+        }
+
+        void LateUpdate() // Modelled from UnityStandardAssets.Utility FollowTarget
+        { 
+            transform.position = player.transform.position;
+        }
+    }
 }

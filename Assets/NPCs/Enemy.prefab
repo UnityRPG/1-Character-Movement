@@ -38,7 +38,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4000012937604616}
-  - component: {fileID: 114000010494595158}
   - component: {fileID: 54924434841450694}
   - component: {fileID: 114471233564944290}
   m_Layer: 10
@@ -212,19 +211,6 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4283897344
---- !u!114 &114000010494595158
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012507956500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30cf0e2192e8f8e4d88b08eed86aab5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zMovementInMeters: 0
-  oscillationPeriodInSeconds: 4
 --- !u!114 &114471233564944290
 MonoBehaviour:
   m_ObjectHideFlags: 1

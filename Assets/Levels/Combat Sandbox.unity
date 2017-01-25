@@ -180,8 +180,7 @@ Prefab:
       propertyPath: oscillationPeriodInSeconds
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010494595158, guid: fa33268947d964142a8268a0d3819ec0,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: zMovementInMeters
       value: 5
       objectReference: {fileID: 0}
@@ -935,40 +934,7 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: -0.110415146
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010934903392, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 95000012661487752, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 23000012664587422, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000013774193498, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010176561492, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010934903392, guid: 479fc7dc5d3dde74b83a8709bd191471,
-        type: 2}
-      propertyPath: currentRange
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114000011213711128, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
-    - {fileID: 114000010237697968, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
-    - {fileID: 114000013680053050, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
-    - {fileID: 195000010429735256, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1811546222 stripped

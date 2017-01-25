@@ -1,5 +1,8 @@
-﻿public static class Buttons
+﻿namespace RPG
 {
-    // Button name constants
-    public const string PrimaryAction = "Primary Action";
+    public static class Buttons
+    {
+        // Button name constants
+        public const string PrimaryAction = "Primary Action";
+    }
 }
