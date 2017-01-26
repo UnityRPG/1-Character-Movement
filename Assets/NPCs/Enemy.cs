@@ -9,9 +9,13 @@ public class Enemy : MonoBehaviour {
     float attackRadius = 1f;
     [SerializeField]
     int damagePointsPerAttack = 1;
+    [SerializeField]
+    float secondsBetweenAttacks = 0.1f;
+
 
     Player player;
     NavMeshAgent navMeshAgent;
+    bool isAttacking = false;
 
     // Use this for initialization
     void Start() {
@@ -25,12 +29,15 @@ public class Enemy : MonoBehaviour {
         if (distanceToPlayer <= attackRadius)
         {
             navMeshAgent.SetDestination(player.transform.position);
-            InvokeRepeating("DealPeriodicDamage", 0f, 2f);
+            if (!isAttacking) {
+                isAttacking = true;
+                InvokeRepeating("DealPeriodicDamage", 0f, secondsBetweenAttacks);
+            }
         }
         else
         {
             CancelInvoke();
-            
+            isAttacking = false;
         }
     }
 

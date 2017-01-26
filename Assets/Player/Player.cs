@@ -2,22 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Player : MonoBehaviour {
 
     public int currentHealthPoints; // TODO remove
     [SerializeField] int initialHealthPoints = 100;
     [SerializeField] int maxHealthPoints = 100;
     [SerializeField] Material ghostMaterial;
+    [SerializeField] AudioClip deathSound;
 
     bool isAlive = true;
     SkinnedMeshRenderer playerSkin;
-    AudioSource audioSource;
+       
 
     // Use this for initialization
     void Start () {
         currentHealthPoints = initialHealthPoints;
         playerSkin = GetComponentInChildren<SkinnedMeshRenderer>();
-        audioSource = GetComponent<AudioSource>();
 	}
 
     public float healthAsPercentage {
@@ -39,9 +40,10 @@ public class Player : MonoBehaviour {
 
         if (currentHealthPoints == 0)
         {
-            audioSource.Play();
-            playerSkin.material = ghostMaterial;
             isAlive = false;
+            AudioSource.PlayClipAtPoint(deathSound, transform.position);
+            playerSkin.material = ghostMaterial;
+            gameObject.SetActive(false);
         }
     }
 }
