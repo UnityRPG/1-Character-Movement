@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 11450346}
   - component: {fileID: 114562969414375622}
   m_Layer: 0
-  m_Name: AIThirdPersonController
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1818,7 +1818,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113348}
   m_LocalRotation: {x: -0, y: -0.99149305, z: -0, w: 0.13015974}
-  m_LocalPosition: {x: -11.523, y: 0, z: 11.45}
+  m_LocalPosition: {x: 3.58, y: 0, z: 3.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 434400}
@@ -2504,7 +2504,7 @@ MonoBehaviour:
   m_JumpPower: 6
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
+  m_MoveSpeedMultiplier: 0.6
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.2
 --- !u!136 &13654204
@@ -2588,7 +2588,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 621e901dcf5ebaf46bce29d18f67194c, type: 2}
+  - {fileID: 2100000, guid: 77a0ac5bff0329b479e8e6c0e9970e0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2730,5 +2730,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83523ac5db65ab642a610cf8d00bb619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRadius: 5
+  attackRadius: 5.38
   damagePointsPerAttack: 1
