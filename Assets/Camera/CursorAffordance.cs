@@ -34,7 +34,6 @@ namespace RPG
             }
 
             var hit = cameraRaycaster.hit; // Read current state
-            UnhighlightEnemy();
 
             switch (cameraRaycaster.layerHit)
             {
@@ -42,32 +41,11 @@ namespace RPG
                     Cursor.SetCursor(walkCursor, cursorCenterFromTopLeft, CursorMode.Auto);
                     break;
                 case Layer.Enemy:
-                    HighlightEnemy(cameraRaycaster.hit.collider.gameObject);
                     Cursor.SetCursor(targetCursor, cursorCenterFromTopLeft, CursorMode.Auto);
                     break;
                 default:
                     Cursor.SetCursor(unknownCursor, cursorCenterFromTopLeft, CursorMode.Auto);
                     break;
-            }
-        }
-
-        private void UnhighlightEnemy()
-        {
-            if (previousEnemyRenderer != null)
-            {
-                previousEnemyRenderer.material = previousEnemyMaterial;
-                previousEnemyRenderer = null;
-            }
-        }
-
-        private void HighlightEnemy(GameObject enemy)
-        {
-            if (previousEnemyRenderer == null)
-            {
-                var previousEnemy = enemy;
-                previousEnemyRenderer = previousEnemy.GetComponentInChildren<MeshRenderer>();
-                previousEnemyMaterial = previousEnemyRenderer.material;
-                previousEnemyRenderer.material = highlightMaterial;
             }
         }
     }
