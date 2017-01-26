@@ -1050,7 +1050,7 @@ GameObject:
   - component: {fileID: 136000011678473126}
   - component: {fileID: 114000011250253890}
   - component: {fileID: 114308436052951310}
-  - component: {fileID: 114662731512505012}
+  - component: {fileID: 114741340126057346}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -2091,7 +2091,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013117817546}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.69, y: 0, z: -11.27}
+  m_LocalPosition: {x: -10.08, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000011994389590}
@@ -2674,7 +2674,7 @@ MonoBehaviour:
   m_RunCycleLegOffset: 0.2
   m_MoveSpeedMultiplier: 2
   m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.2
+  m_GroundCheckDistance: 0.3
 --- !u!114 &114308436052951310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2688,7 +2688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackMoveStopRadius: 4
   walkMoveStopRadius: 0.2
---- !u!114 &114662731512505012
+--- !u!114 &114741340126057346
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

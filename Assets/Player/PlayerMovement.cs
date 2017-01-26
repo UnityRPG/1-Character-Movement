@@ -6,7 +6,7 @@ namespace RPG
     [RequireComponent(typeof (ThirdPersonCharacter))]
     public class PlayerMovement : MonoBehaviour
     {
-        public static bool isInDirectMode = false;  // TODO consider setter later
+        public static bool isInDirectMode = false;  // TODO consider setter / enum later
 
         [SerializeField] float attackMoveStopRadius = 4f;
         [SerializeField] float walkMoveStopRadius = 0.2f;
