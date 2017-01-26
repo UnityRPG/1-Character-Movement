@@ -29,7 +29,7 @@ namespace RPG
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.G))
             {
                 isInDirectMode = !isInDirectMode;
             }
@@ -47,6 +47,7 @@ namespace RPG
         {
             if (Input.GetMouseButton(0))
             {
+                print("Cursor raycast hit" + cameraRaycaster.hit.collider.gameObject.name.ToString());
                 switch (cameraRaycaster.layerHit)
                 {
                     case Layer.Walkable:

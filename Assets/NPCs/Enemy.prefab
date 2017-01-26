@@ -2504,9 +2504,9 @@ MonoBehaviour:
   m_JumpPower: 6
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 0.6
+  m_MoveSpeedMultiplier: 0.5
   m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.2
+  m_GroundCheckDistance: 0.35
 --- !u!136 &13654204
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -2730,5 +2730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83523ac5db65ab642a610cf8d00bb619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRadius: 5.38
+  attackRadius: 6
   damagePointsPerAttack: 1
+  secondsBetweenAttacks: 0.1
