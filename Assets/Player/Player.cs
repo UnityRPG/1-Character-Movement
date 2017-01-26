@@ -6,10 +6,13 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     public int currentHealthPoints; // TODO remove
+
+    public bool isGod = false;
+
     [SerializeField] int initialHealthPoints = 100;
     [SerializeField] int maxHealthPoints = 100;
     [SerializeField] Material ghostMaterial;
-    [SerializeField] AudioClip deathSound;
+    [SerializeField] AudioClip[] deathSounds;
 
     bool isAlive = true;
     SkinnedMeshRenderer playerSkin;
@@ -30,18 +33,20 @@ public class Player : MonoBehaviour {
 
     public void DealDamage(int damagePoints)
     {
-        var newHealthPoints = currentHealthPoints - damagePoints;
-        currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
+        if (!isGod)
+        {
+            var newHealthPoints = currentHealthPoints - damagePoints;
+            currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
+        }
     }
 
     void Update()
     {
         if (!isAlive) { return; }
-
         if (currentHealthPoints == 0)
         {
             isAlive = false;
-            AudioSource.PlayClipAtPoint(deathSound, transform.position);
+            AudioSource.PlayClipAtPoint(deathSounds[Random.Range(0,deathSounds.Length)], transform.position);
             playerSkin.material = ghostMaterial;
             gameObject.SetActive(false);
         }
