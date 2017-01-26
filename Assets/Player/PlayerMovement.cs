@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 namespace RPG
 {
@@ -63,11 +64,11 @@ namespace RPG
             var playerToClickPoint = transform.position - currentClickTarget;
             if (playerToClickPoint.magnitude >= currentClickRange)
             {
-                m_Character.SetMovementDirection(currentClickTarget - transform.position, false, false);
+                m_Character.Move(currentClickTarget - transform.position, false, false);
             }
             else
             {
-                m_Character.SetMovementDirection(Vector3.zero, false, false);
+                m_Character.Move(Vector3.zero, false, false);
             }
         }
 
@@ -82,7 +83,7 @@ namespace RPG
             Vector3 m_Move = v * camForward + h * mainCamera.transform.right;
 
             // pass all parameters to the character control script#
-            m_Character.SetMovementDirection(m_Move, false, false); 
+            m_Character.Move(m_Move, false, false); 
         }
     }
 }

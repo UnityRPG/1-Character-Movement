@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour {
 
@@ -10,11 +11,12 @@ public class Enemy : MonoBehaviour {
     int damagePointsPerAttack = 1;
 
     Player player;
+    NavMeshAgent navMeshAgent;
 
     // Use this for initialization
     void Start() {
         player = FindObjectOfType<Player>();
-
+        navMeshAgent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -22,11 +24,13 @@ public class Enemy : MonoBehaviour {
         float distanceToPlayer = (player.transform.position - transform.position).magnitude;
         if (distanceToPlayer <= attackRadius)
         {
+            navMeshAgent.SetDestination(player.transform.position);
             InvokeRepeating("DealPeriodicDamage", 0f, 2f);
         }
         else
         {
             CancelInvoke();
+            
         }
     }
 
