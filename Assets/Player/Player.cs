@@ -20,7 +20,7 @@ public class Player : MonoBehaviour {
         }
     }
 
-    void DealDamage(int damagePoints)
+    public void DealDamage(int damagePoints)
     {
         var newHealthPoints = currentHealthPoints - damagePoints;
         currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
