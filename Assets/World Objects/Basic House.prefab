@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4400091853653706}
   - component: {fileID: 33160273402429472}
   - component: {fileID: 23534870209642450}
-  - component: {fileID: 65653222777060602}
+  - component: {fileID: 65976844265897566}
   m_Layer: 0
   m_Name: Standard_House
   m_TagString: Untagged
@@ -59,7 +59,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4220605457412244
 Transform:
@@ -67,7 +67,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1275656739645226}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -80,7 +80,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1493928785581594}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -94,7 +94,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1972499777470520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.8, z: 19.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4400091853653706}
@@ -178,7 +178,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1275656739645226}
   m_Mesh: {fileID: 4300000, guid: 7cde91c82fcbad547bc9ab227f033b03, type: 3}
---- !u!65 &65653222777060602
+--- !u!65 &65976844265897566
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -188,5 +188,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.000001, y: 8.000003, z: 2.0000005}
-  m_Center: {x: -2.0000005, y: 4.0000005, z: 1.0000002}
+  m_Size: {x: 4.000001, y: 2, z: 8.000001}
+  m_Center: {x: -2.0000005, y: 1, z: -3.9999995}

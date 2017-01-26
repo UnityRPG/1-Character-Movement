@@ -955,6 +955,8 @@ ModelImporter:
     400944: leaves
     400946: tree
     400948: treeArm
+    2300000: tree
+    3300000: tree
     4300000: tree
     4300002: leaves
     7400000: Default Take
