@@ -1105,18 +1105,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1277097087477244, guid: 75a43cca039264395b99698681e52275, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1277097087477244, guid: 75a43cca039264395b99698681e52275, type: 2}
-      propertyPath: m_Name
-      value: General Purpose Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 1601751869006614, guid: 75a43cca039264395b99698681e52275, type: 2}
-      propertyPath: m_Name
-      value: Button Label
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75a43cca039264395b99698681e52275, type: 2}
   m_IsPrefabParent: 0
