@@ -1802,7 +1802,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113348}
   m_LocalRotation: {x: -0, y: -0.99149305, z: -0, w: 0.13015974}
-  m_LocalPosition: {x: -5.1825867, y: 0, z: 11.392349}
+  m_LocalPosition: {x: -8.601079, y: 0.93985194, z: 30.209324}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 434400}
@@ -2476,8 +2476,8 @@ MonoBehaviour:
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
   m_MoveSpeedMultiplier: 0.1
-  m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.2
+  m_AnimSpeedMultiplier: 0.1
+  m_GroundCheckDistance: 0.5
 --- !u!136 &13654204
 CapsuleCollider:
   m_ObjectHideFlags: 1
