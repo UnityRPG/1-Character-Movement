@@ -9,7 +9,12 @@ public class Player : MonoBehaviour {
     [SerializeField] int initialHealthPoints = 100;
     [SerializeField] int maxHealthPoints = 100;
     [SerializeField] Material ghostMaterial;
+<<<<<<< Updated upstream
     [SerializeField] AudioClip deathSound;
+=======
+    [SerializeField] AudioClip[] deathSounds;
+    [SerializeField] AudioClip[] startSounds;
+>>>>>>> Stashed changes
 
     bool isAlive = true;
     SkinnedMeshRenderer playerSkin;
@@ -19,7 +24,8 @@ public class Player : MonoBehaviour {
     void Start () {
         currentHealthPoints = initialHealthPoints;
         playerSkin = GetComponentInChildren<SkinnedMeshRenderer>();
-	}
+        AudioSource.PlayClipAtPoint(startSounds[Random.Range(0, startSounds.Length)], transform.position);
+    }
 
     public float healthAsPercentage {
         get
