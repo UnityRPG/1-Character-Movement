@@ -1,12 +1,13 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 namespace RPG
 {
     [RequireComponent(typeof (ThirdPersonCharacter))]
     public class PlayerMovement : MonoBehaviour
     {
-        public static bool isInDirectMode = false;  // TODO consider setter later
+        public static bool isInDirectMode = false;  // TODO consider setter / enum later
 
         [SerializeField] float attackMoveStopRadius = 4f;
         [SerializeField] float walkMoveStopRadius = 0.2f;
@@ -28,7 +29,7 @@ namespace RPG
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.G))
             {
                 isInDirectMode = !isInDirectMode;
             }
@@ -46,6 +47,7 @@ namespace RPG
         {
             if (Input.GetMouseButton(0))
             {
+                print("Cursor raycast hit" + cameraRaycaster.hit.collider.gameObject.name.ToString());
                 switch (cameraRaycaster.layerHit)
                 {
                     case Layer.Walkable:
@@ -63,11 +65,11 @@ namespace RPG
             var playerToClickPoint = transform.position - currentClickTarget;
             if (playerToClickPoint.magnitude >= currentClickRange)
             {
-                m_Character.SetMovementDirection(currentClickTarget - transform.position, false, false);
+                m_Character.Move(currentClickTarget - transform.position, false, false);
             }
             else
             {
-                m_Character.SetMovementDirection(Vector3.zero, false, false);
+                m_Character.Move(Vector3.zero, false, false);
             }
         }
 
@@ -82,7 +84,7 @@ namespace RPG
             Vector3 m_Move = v * camForward + h * mainCamera.transform.right;
 
             // pass all parameters to the character control script#
-            m_Character.SetMovementDirection(m_Move, false, false); 
+            m_Character.Move(m_Move, false, false); 
         }
     }
 }

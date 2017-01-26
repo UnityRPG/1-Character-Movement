@@ -23,12 +23,12 @@ GameObject:
   - component: {fileID: 114351396484842614}
   - component: {fileID: 114049112846380166}
   m_Layer: 5
-  m_Name: Button
+  m_Name: General Purpose Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1311717441010458
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 222672222367907380}
   - component: {fileID: 114424150258211166}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Button Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -527,15 +527,15 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Analytics: 0
-    Build: 0
+    Build: 1
     Collab: 0
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
-  cloudProjectId: d435ef6a-7fbe-4b4c-ad7f-d52265ad01f9
-  projectName: Project Dragon
-  organizationId: sampattuzzi
+  cloudProjectId: 1df45d6b-2bee-4ecc-b60f-b8f259fe312d
+  projectName: Dragon KS RPG
+  organizationId: bentristem
   cloudEnabled: 0
