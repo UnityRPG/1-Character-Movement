@@ -317,6 +317,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: -0.11041513
       objectReference: {fileID: 0}
+    - target: {fileID: 113348, guid: 54eb5844754051b40a918a84c33b7c1a, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 54eb5844754051b40a918a84c33b7c1a, type: 2}
   m_IsPrefabParent: 0
@@ -934,8 +938,7 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: -0.110415146
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 82198951382304820, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 479fc7dc5d3dde74b83a8709bd191471, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1633969060
@@ -1142,7 +1145,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 436670, guid: 1a21c902033b5d24996c18745c4aa920, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 454696, guid: 1a21c902033b5d24996c18745c4aa920, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1159,19 +1162,6 @@ Prefab:
     - target: {fileID: 454696, guid: 1a21c902033b5d24996c18745c4aa920, type: 2}
       propertyPath: m_LocalRotation.w
       value: -0.11041513
-      objectReference: {fileID: 0}
-    - target: {fileID: 434400, guid: 1a21c902033b5d24996c18745c4aa920, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114562969414375622, guid: 1a21c902033b5d24996c18745c4aa920,
-        type: 2}
-      propertyPath: damagePointsPerAttack
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11450346, guid: 1a21c902033b5d24996c18745c4aa920, type: 2}
-      propertyPath: m_MoveSpeedMultiplier
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a21c902033b5d24996c18745c4aa920, type: 2}

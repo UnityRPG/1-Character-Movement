@@ -36,6 +36,7 @@ namespace RPG
 
             if (isInDirectMode) {
                 ProcessDirectMovement();
+                // TODO impliment controller attack
             }
             else
             {

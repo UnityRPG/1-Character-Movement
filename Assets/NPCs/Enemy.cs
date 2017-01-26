@@ -3,75 +3,98 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour {
+namespace RPG
+{
+    public class Enemy : MonoBehaviour
+    {
 
-    [SerializeField] [Tooltip("To visualise switch to Scene and select enemy(s)")]
-    float attackRadius = 1f;
-    [SerializeField]
-    int damagePointsPerAttack = 1;
-    [SerializeField]
-    float secondsBetweenAttacks = 0.1f;
-    [SerializeField]
-    Material attackingMaterial;
-    [SerializeField]
-    int maxHealthPoints = 100;
+        [SerializeField]
+        [Tooltip("To visualise switch to Scene and select enemy(s)")]
+        float attackRadius = 1f;
+        [SerializeField]
+        int damagePointsPerAttack = 1;
+        [SerializeField]
+        float secondsBetweenAttacks = 0.1f;
+        [SerializeField]
+        Material attackingMaterial;
+        [SerializeField]
+        int maxHealthPoints = 100;
+        [SerializeField]
+        Material ghostMaterial;
 
-    int currentHealthPoints;
-    Player player;
-    NavMeshAgent navMeshAgent;
-    bool isAttacking = false;
-    SkinnedMeshRenderer enemySkin;
+        int currentHealthPoints;
+        Player player;
+        NavMeshAgent navMeshAgent;
+        bool isAttacking = false;
+        bool isBeingAttacked = false;
+        SkinnedMeshRenderer enemySkin;
+        bool isAlive = true;
 
-    // Use this for initialization
-    void Start() {
-        player = FindObjectOfType<Player>();
-        navMeshAgent = GetComponent<NavMeshAgent>();
-        enemySkin = GetComponentInChildren<SkinnedMeshRenderer>();
-        currentHealthPoints = maxHealthPoints;
-    }
-
-    // Update is called once per frame
-    void Update() {
-        float distanceToPlayer = (player.transform.position - transform.position).magnitude;
-        if (distanceToPlayer <= attackRadius)
+        // Use this for initialization
+        void Start()
         {
-            navMeshAgent.SetDestination(player.transform.position);
-            if (!isAttacking) {
-                isAttacking = true;
-                InvokeRepeating("PeriodicallyAttackPlayer", 0f, secondsBetweenAttacks); // TODO avoid string reference?
+            player = FindObjectOfType<Player>();
+            navMeshAgent = GetComponent<NavMeshAgent>();
+            enemySkin = GetComponentInChildren<SkinnedMeshRenderer>();
+            currentHealthPoints = maxHealthPoints;
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            float distanceToPlayer = (player.transform.position - transform.position).magnitude;
+            if (distanceToPlayer <= attackRadius)
+            {
+                navMeshAgent.SetDestination(player.transform.position);
+                if (!isAttacking)
+                {
+                    isAttacking = true;
+                    InvokeRepeating("PeriodicallyAttackPlayer", 0f, secondsBetweenAttacks); // TODO avoid string reference?
+                }
+            }
+            else
+            {
+                CancelInvoke();
+                isAttacking = false;
+            }
+
+            if (!isAlive) { return; }
+
+            if (currentHealthPoints == 0)
+            {
+                isAlive = false;
+                // AudioSource.PlayClipAtPoint(PickRandomAudioClip(deathSounds), transform.position); TODO add enemy death sounds
+                enemySkin.material = ghostMaterial;
+                CancelInvoke();
+                gameObject.SetActive(false);
             }
         }
-        else
+
+        // Note copy-paste from player
+        public void DoFixedDamage(int points)
         {
-            CancelInvoke();
-            isAttacking = false;
+            var newHealthPoints = currentHealthPoints - points; // TODO note hard code due to string reference of messsage
+            currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
         }
-    }
 
-    // Note copy-paste from player
-    public void TakeDamage(int damagePoints)
-    {
-        var newHealthPoints = currentHealthPoints - damagePoints;
-        currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
-    }
-
-    public float healthAsPercentage
-    {
-        get
+        public float healthAsPercentage
         {
-            return currentHealthPoints / (float)maxHealthPoints;
+            get
+            {
+                return currentHealthPoints / (float)maxHealthPoints;
+            }
         }
-    }
 
-    void PeriodicallyAttackPlayer()
-    {
-        player.TakeDamage(damagePointsPerAttack);
-        enemySkin.material = attackingMaterial;
-    }
+        void PeriodicallyAttackPlayer()
+        {
+            player.TakeDamage(damagePointsPerAttack);
+            enemySkin.material = attackingMaterial;
+        }
 
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRadius);
+        void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, attackRadius);
+        }
     }
 }

@@ -2,16 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ButtonBinding : MonoBehaviour {
+namespace RPG {
+    public class ButtonBinding : MonoBehaviour
+    {
 
-    Player player;
+        Player player;
 
-	// Use this for initialization
-	void Start () {
-        player = FindObjectOfType<Player>();
-	}
+        // Use this for initialization
+        void Start()
+        {
+            player = FindObjectOfType<Player>();
+        }
 
-    public void DealPlayerDamage(int amount) {
-        player.TakeDamage(amount);
+        public void DealPlayerDamage(int amount)
+        {
+            player.TakeDamage(amount);
+        }
     }
 }
