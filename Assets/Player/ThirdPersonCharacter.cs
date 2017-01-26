@@ -74,7 +74,7 @@ namespace RPG
 			UpdateAnimator(move);
 		}
 
-
+        // TODO consider removing crouching
 		void ScaleCapsuleForCrouching(bool crouch)
 		{
 			if (m_IsGrounded && crouch)
