@@ -1,0 +1,2010 @@
+fileFormatVersion: 2
+guid: 203d2cd470835384ea38ac4abe11cd55
+timeCreated: 1485439902
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bone000_000
+    100002: bone000_001
+    100004: bone000_002
+    100006: bone000_003
+    100008: bone000_004
+    100010: bone000_005
+    100012: bone000_006
+    100014: bone000_007
+    100016: bone000_008
+    100018: bone000_009
+    100020: bone000_010
+    100022: bone000_011
+    100024: bone000_012
+    100026: bone000_013
+    100028: bone000_014
+    100030: bone000_015
+    100032: bone001_000
+    100034: bone001_001
+    100036: bone001_002
+    100038: bone001_003
+    100040: bone001_004
+    100042: bone001_005
+    100044: bone001_006
+    100046: bone001_007
+    100048: bone001_008
+    100050: bone001_009
+    100052: bone001_010
+    100054: bone001_011
+    100056: bone001_012
+    100058: bone001_013
+    100060: bone001_014
+    100062: bone002_000
+    100064: bone002_001
+    100066: bone002_002
+    100068: bone002_003
+    100070: bone002_004
+    100072: bone002_005
+    100074: bone002_006
+    100076: bone002_007
+    100078: bone002_008
+    100080: bone002_009
+    100082: bone002_010
+    100084: bone002_011
+    100086: bone002_012
+    100088: bone002_013
+    100090: bone002_014
+    100092: bone003_000
+    100094: bone003_001
+    100096: bone003_002
+    100098: bone003_003
+    100100: bone003_004
+    100102: bone003_005
+    100104: bone003_006
+    100106: bone003_007
+    100108: bone003_008
+    100110: bone003_009
+    100112: bone003_010
+    100114: bone004_000
+    100116: bone004_001
+    100118: bone004_002
+    100120: bone004_003
+    100122: bone004_004
+    100124: bone004_005
+    100126: bone004_006
+    100128: bone004_007
+    100130: bone004_008
+    100132: bone004_009
+    100134: bone004_010
+    100136: bone005_000
+    100138: bone005_001
+    100140: bone005_002
+    100142: bone005_003
+    100144: bone005_004
+    100146: bone005_005
+    100148: bone005_006
+    100150: bone005_007
+    100152: bone005_008
+    100154: bone005_009
+    100156: bone005_010
+    100158: bone006_000
+    100160: bone006_001
+    100162: bone006_002
+    100164: bone006_003
+    100166: bone006_004
+    100168: bone006_005
+    100170: bone006_006
+    100172: bone006_007
+    100174: bone006_008
+    100176: bone007_000
+    100178: bone007_001
+    100180: bone007_002
+    100182: bone007_003
+    100184: bone007_004
+    100186: bone007_005
+    100188: bone007_006
+    100190: bone007_007
+    100192: bone007_008
+    100194: bone008_000
+    100196: bone008_001
+    100198: bone008_002
+    100200: bone008_003
+    100202: bone008_004
+    100204: bone008_005
+    100206: bone008_006
+    100208: bone008_007
+    100210: bone008_008
+    100212: bone009_000
+    100214: bone009_001
+    100216: bone009_002
+    100218: bone009_003
+    100220: bone009_004
+    100222: bone009_005
+    100224: bone009_006
+    100226: bone009_007
+    100228: bone010_000
+    100230: bone010_001
+    100232: bone010_002
+    100234: bone010_003
+    100236: bone010_004
+    100238: bone010_005
+    100240: bone010_006
+    100242: bone010_007
+    100244: bone011_000
+    100246: bone011_001
+    100248: bone011_002
+    100250: bone011_003
+    100252: bone011_004
+    100254: bone011_005
+    100256: bone011_006
+    100258: bone011_007
+    100260: bone012_000
+    100262: bone012_001
+    100264: bone012_002
+    100266: bone012_003
+    100268: bone012_004
+    100270: bone012_005
+    100272: bone012_006
+    100274: bone013_000
+    100276: bone013_001
+    100278: bone013_002
+    100280: bone013_003
+    100282: bone013_004
+    100284: bone013_005
+    100286: bone014_000
+    100288: bone014_001
+    100290: bone014_002
+    100292: bone014_003
+    100294: bone014_004
+    100296: bone014_005
+    100298: bone015_000
+    100300: bone015_001
+    100302: bone015_002
+    100304: bone015_003
+    100306: bone015_004
+    100308: bone015_005
+    100310: bone016_000
+    100312: bone016_001
+    100314: bone016_002
+    100316: bone016_003
+    100318: bone016_004
+    100320: bone016_005
+    100322: bone017_000
+    100324: bone017_001
+    100326: bone017_002
+    100328: bone017_003
+    100330: bone017_004
+    100332: bone017_005
+    100334: bone018_000
+    100336: bone018_001
+    100338: bone018_002
+    100340: bone018_003
+    100342: bone018_004
+    100344: bone018_005
+    100346: bone019_000
+    100348: bone019_001
+    100350: bone019_002
+    100352: bone019_003
+    100354: bone019_004
+    100356: bone019_005
+    100358: bone020_000
+    100360: bone020_001
+    100362: bone020_002
+    100364: bone020_003
+    100366: bone020_004
+    100368: bone021_000
+    100370: bone021_001
+    100372: bone021_002
+    100374: bone021_003
+    100376: bone021_004
+    100378: bone022_000
+    100380: bone022_001
+    100382: bone022_002
+    100384: bone022_003
+    100386: bone022_004
+    100388: bone023_000
+    100390: bone023_001
+    100392: bone023_002
+    100394: bone023_003
+    100396: bone023_004
+    100398: bone024_000
+    100400: bone024_001
+    100402: bone024_002
+    100404: bone024_003
+    100406: bone025_000
+    100408: bone025_001
+    100410: bone025_002
+    100412: bone025_003
+    100414: bone026_000
+    100416: bone026_001
+    100418: bone026_002
+    100420: bone026_003
+    100422: bone027_000
+    100424: bone027_001
+    100426: bone027_002
+    100428: bone027_003
+    100430: bone028_000
+    100432: bone028_001
+    100434: bone028_002
+    100436: bone028_003
+    100438: bone029_000
+    100440: bone029_001
+    100442: bone029_002
+    100444: bone029_003
+    100446: bone030_000
+    100448: bone030_001
+    100450: bone030_002
+    100452: bone030_003
+    100454: bone031_000
+    100456: bone031_001
+    100458: bone031_002
+    100460: bone032_000
+    100462: bone032_001
+    100464: bone032_002
+    100466: bone033_000
+    100468: bone033_001
+    100470: bone033_002
+    100472: bone034_000
+    100474: bone034_001
+    100476: bone034_002
+    100478: bone035_000
+    100480: bone035_001
+    100482: bone035_002
+    100484: bone036_000
+    100486: bone036_001
+    100488: bone037_000
+    100490: bone037_001
+    100492: bone038_000
+    100494: bone038_001
+    100496: bone039_000
+    100498: bone039_001
+    100500: bone040_000
+    100502: bone040_001
+    100504: bone041_000
+    100506: bone041_001
+    100508: bone042_000
+    100510: bone042_001
+    100512: bone043_000
+    100514: bone043_001
+    100516: bone044_000
+    100518: bone044_001
+    100520: bone045_000
+    100522: bone046_000
+    100524: bone047_000
+    100526: bone048_000
+    100528: bone049_000
+    100530: bone050_000
+    100532: bone051_000
+    100534: bone052_000
+    100536: bone053_000
+    100538: bone054_000
+    100540: bone055_000
+    100542: bone056_000
+    100544: bone057_000
+    100546: //RootNode
+    100548: leaf0
+    100550: leaf1
+    100552: leaf10
+    100554: leaf100
+    100556: leaf101
+    100558: leaf102
+    100560: leaf103
+    100562: leaf104
+    100564: leaf105
+    100566: leaf106
+    100568: leaf107
+    100570: leaf108
+    100572: leaf109
+    100574: leaf11
+    100576: leaf110
+    100578: leaf111
+    100580: leaf112
+    100582: leaf113
+    100584: leaf114
+    100586: leaf115
+    100588: leaf116
+    100590: leaf117
+    100592: leaf118
+    100594: leaf119
+    100596: leaf12
+    100598: leaf120
+    100600: leaf121
+    100602: leaf122
+    100604: leaf123
+    100606: leaf124
+    100608: leaf125
+    100610: leaf126
+    100612: leaf127
+    100614: leaf128
+    100616: leaf129
+    100618: leaf13
+    100620: leaf130
+    100622: leaf131
+    100624: leaf132
+    100626: leaf133
+    100628: leaf134
+    100630: leaf135
+    100632: leaf136
+    100634: leaf137
+    100636: leaf138
+    100638: leaf139
+    100640: leaf14
+    100642: leaf140
+    100644: leaf141
+    100646: leaf142
+    100648: leaf143
+    100650: leaf144
+    100652: leaf145
+    100654: leaf146
+    100656: leaf147
+    100658: leaf148
+    100660: leaf149
+    100662: leaf15
+    100664: leaf150
+    100666: leaf151
+    100668: leaf152
+    100670: leaf153
+    100672: leaf154
+    100674: leaf155
+    100676: leaf156
+    100678: leaf157
+    100680: leaf158
+    100682: leaf159
+    100684: leaf16
+    100686: leaf160
+    100688: leaf161
+    100690: leaf162
+    100692: leaf163
+    100694: leaf164
+    100696: leaf165
+    100698: leaf166
+    100700: leaf167
+    100702: leaf168
+    100704: leaf169
+    100706: leaf17
+    100708: leaf170
+    100710: leaf171
+    100712: leaf172
+    100714: leaf173
+    100716: leaf174
+    100718: leaf175
+    100720: leaf176
+    100722: leaf177
+    100724: leaf178
+    100726: leaf179
+    100728: leaf18
+    100730: leaf180
+    100732: leaf181
+    100734: leaf182
+    100736: leaf183
+    100738: leaf184
+    100740: leaf185
+    100742: leaf186
+    100744: leaf187
+    100746: leaf188
+    100748: leaf189
+    100750: leaf19
+    100752: leaf190
+    100754: leaf191
+    100756: leaf192
+    100758: leaf193
+    100760: leaf194
+    100762: leaf195
+    100764: leaf196
+    100766: leaf197
+    100768: leaf2
+    100770: leaf20
+    100772: leaf21
+    100774: leaf22
+    100776: leaf23
+    100778: leaf24
+    100780: leaf25
+    100782: leaf26
+    100784: leaf27
+    100786: leaf28
+    100788: leaf29
+    100790: leaf3
+    100792: leaf30
+    100794: leaf31
+    100796: leaf32
+    100798: leaf33
+    100800: leaf34
+    100802: leaf35
+    100804: leaf36
+    100806: leaf37
+    100808: leaf38
+    100810: leaf39
+    100812: leaf4
+    100814: leaf40
+    100816: leaf41
+    100818: leaf42
+    100820: leaf43
+    100822: leaf44
+    100824: leaf45
+    100826: leaf46
+    100828: leaf47
+    100830: leaf48
+    100832: leaf49
+    100834: leaf5
+    100836: leaf50
+    100838: leaf51
+    100840: leaf52
+    100842: leaf53
+    100844: leaf54
+    100846: leaf55
+    100848: leaf56
+    100850: leaf57
+    100852: leaf58
+    100854: leaf59
+    100856: leaf6
+    100858: leaf60
+    100860: leaf61
+    100862: leaf62
+    100864: leaf63
+    100866: leaf64
+    100868: leaf65
+    100870: leaf66
+    100872: leaf67
+    100874: leaf68
+    100876: leaf69
+    100878: leaf7
+    100880: leaf70
+    100882: leaf71
+    100884: leaf72
+    100886: leaf73
+    100888: leaf74
+    100890: leaf75
+    100892: leaf76
+    100894: leaf77
+    100896: leaf78
+    100898: leaf79
+    100900: leaf8
+    100902: leaf80
+    100904: leaf81
+    100906: leaf82
+    100908: leaf83
+    100910: leaf84
+    100912: leaf85
+    100914: leaf86
+    100916: leaf87
+    100918: leaf88
+    100920: leaf89
+    100922: leaf9
+    100924: leaf90
+    100926: leaf91
+    100928: leaf92
+    100930: leaf93
+    100932: leaf94
+    100934: leaf95
+    100936: leaf96
+    100938: leaf97
+    100940: leaf98
+    100942: leaf99
+    100944: leaves
+    100946: tree
+    100948: treeArm
+    400000: bone000_000
+    400002: bone000_001
+    400004: bone000_002
+    400006: bone000_003
+    400008: bone000_004
+    400010: bone000_005
+    400012: bone000_006
+    400014: bone000_007
+    400016: bone000_008
+    400018: bone000_009
+    400020: bone000_010
+    400022: bone000_011
+    400024: bone000_012
+    400026: bone000_013
+    400028: bone000_014
+    400030: bone000_015
+    400032: bone001_000
+    400034: bone001_001
+    400036: bone001_002
+    400038: bone001_003
+    400040: bone001_004
+    400042: bone001_005
+    400044: bone001_006
+    400046: bone001_007
+    400048: bone001_008
+    400050: bone001_009
+    400052: bone001_010
+    400054: bone001_011
+    400056: bone001_012
+    400058: bone001_013
+    400060: bone001_014
+    400062: bone002_000
+    400064: bone002_001
+    400066: bone002_002
+    400068: bone002_003
+    400070: bone002_004
+    400072: bone002_005
+    400074: bone002_006
+    400076: bone002_007
+    400078: bone002_008
+    400080: bone002_009
+    400082: bone002_010
+    400084: bone002_011
+    400086: bone002_012
+    400088: bone002_013
+    400090: bone002_014
+    400092: bone003_000
+    400094: bone003_001
+    400096: bone003_002
+    400098: bone003_003
+    400100: bone003_004
+    400102: bone003_005
+    400104: bone003_006
+    400106: bone003_007
+    400108: bone003_008
+    400110: bone003_009
+    400112: bone003_010
+    400114: bone004_000
+    400116: bone004_001
+    400118: bone004_002
+    400120: bone004_003
+    400122: bone004_004
+    400124: bone004_005
+    400126: bone004_006
+    400128: bone004_007
+    400130: bone004_008
+    400132: bone004_009
+    400134: bone004_010
+    400136: bone005_000
+    400138: bone005_001
+    400140: bone005_002
+    400142: bone005_003
+    400144: bone005_004
+    400146: bone005_005
+    400148: bone005_006
+    400150: bone005_007
+    400152: bone005_008
+    400154: bone005_009
+    400156: bone005_010
+    400158: bone006_000
+    400160: bone006_001
+    400162: bone006_002
+    400164: bone006_003
+    400166: bone006_004
+    400168: bone006_005
+    400170: bone006_006
+    400172: bone006_007
+    400174: bone006_008
+    400176: bone007_000
+    400178: bone007_001
+    400180: bone007_002
+    400182: bone007_003
+    400184: bone007_004
+    400186: bone007_005
+    400188: bone007_006
+    400190: bone007_007
+    400192: bone007_008
+    400194: bone008_000
+    400196: bone008_001
+    400198: bone008_002
+    400200: bone008_003
+    400202: bone008_004
+    400204: bone008_005
+    400206: bone008_006
+    400208: bone008_007
+    400210: bone008_008
+    400212: bone009_000
+    400214: bone009_001
+    400216: bone009_002
+    400218: bone009_003
+    400220: bone009_004
+    400222: bone009_005
+    400224: bone009_006
+    400226: bone009_007
+    400228: bone010_000
+    400230: bone010_001
+    400232: bone010_002
+    400234: bone010_003
+    400236: bone010_004
+    400238: bone010_005
+    400240: bone010_006
+    400242: bone010_007
+    400244: bone011_000
+    400246: bone011_001
+    400248: bone011_002
+    400250: bone011_003
+    400252: bone011_004
+    400254: bone011_005
+    400256: bone011_006
+    400258: bone011_007
+    400260: bone012_000
+    400262: bone012_001
+    400264: bone012_002
+    400266: bone012_003
+    400268: bone012_004
+    400270: bone012_005
+    400272: bone012_006
+    400274: bone013_000
+    400276: bone013_001
+    400278: bone013_002
+    400280: bone013_003
+    400282: bone013_004
+    400284: bone013_005
+    400286: bone014_000
+    400288: bone014_001
+    400290: bone014_002
+    400292: bone014_003
+    400294: bone014_004
+    400296: bone014_005
+    400298: bone015_000
+    400300: bone015_001
+    400302: bone015_002
+    400304: bone015_003
+    400306: bone015_004
+    400308: bone015_005
+    400310: bone016_000
+    400312: bone016_001
+    400314: bone016_002
+    400316: bone016_003
+    400318: bone016_004
+    400320: bone016_005
+    400322: bone017_000
+    400324: bone017_001
+    400326: bone017_002
+    400328: bone017_003
+    400330: bone017_004
+    400332: bone017_005
+    400334: bone018_000
+    400336: bone018_001
+    400338: bone018_002
+    400340: bone018_003
+    400342: bone018_004
+    400344: bone018_005
+    400346: bone019_000
+    400348: bone019_001
+    400350: bone019_002
+    400352: bone019_003
+    400354: bone019_004
+    400356: bone019_005
+    400358: bone020_000
+    400360: bone020_001
+    400362: bone020_002
+    400364: bone020_003
+    400366: bone020_004
+    400368: bone021_000
+    400370: bone021_001
+    400372: bone021_002
+    400374: bone021_003
+    400376: bone021_004
+    400378: bone022_000
+    400380: bone022_001
+    400382: bone022_002
+    400384: bone022_003
+    400386: bone022_004
+    400388: bone023_000
+    400390: bone023_001
+    400392: bone023_002
+    400394: bone023_003
+    400396: bone023_004
+    400398: bone024_000
+    400400: bone024_001
+    400402: bone024_002
+    400404: bone024_003
+    400406: bone025_000
+    400408: bone025_001
+    400410: bone025_002
+    400412: bone025_003
+    400414: bone026_000
+    400416: bone026_001
+    400418: bone026_002
+    400420: bone026_003
+    400422: bone027_000
+    400424: bone027_001
+    400426: bone027_002
+    400428: bone027_003
+    400430: bone028_000
+    400432: bone028_001
+    400434: bone028_002
+    400436: bone028_003
+    400438: bone029_000
+    400440: bone029_001
+    400442: bone029_002
+    400444: bone029_003
+    400446: bone030_000
+    400448: bone030_001
+    400450: bone030_002
+    400452: bone030_003
+    400454: bone031_000
+    400456: bone031_001
+    400458: bone031_002
+    400460: bone032_000
+    400462: bone032_001
+    400464: bone032_002
+    400466: bone033_000
+    400468: bone033_001
+    400470: bone033_002
+    400472: bone034_000
+    400474: bone034_001
+    400476: bone034_002
+    400478: bone035_000
+    400480: bone035_001
+    400482: bone035_002
+    400484: bone036_000
+    400486: bone036_001
+    400488: bone037_000
+    400490: bone037_001
+    400492: bone038_000
+    400494: bone038_001
+    400496: bone039_000
+    400498: bone039_001
+    400500: bone040_000
+    400502: bone040_001
+    400504: bone041_000
+    400506: bone041_001
+    400508: bone042_000
+    400510: bone042_001
+    400512: bone043_000
+    400514: bone043_001
+    400516: bone044_000
+    400518: bone044_001
+    400520: bone045_000
+    400522: bone046_000
+    400524: bone047_000
+    400526: bone048_000
+    400528: bone049_000
+    400530: bone050_000
+    400532: bone051_000
+    400534: bone052_000
+    400536: bone053_000
+    400538: bone054_000
+    400540: bone055_000
+    400542: bone056_000
+    400544: bone057_000
+    400546: //RootNode
+    400548: leaf0
+    400550: leaf1
+    400552: leaf10
+    400554: leaf100
+    400556: leaf101
+    400558: leaf102
+    400560: leaf103
+    400562: leaf104
+    400564: leaf105
+    400566: leaf106
+    400568: leaf107
+    400570: leaf108
+    400572: leaf109
+    400574: leaf11
+    400576: leaf110
+    400578: leaf111
+    400580: leaf112
+    400582: leaf113
+    400584: leaf114
+    400586: leaf115
+    400588: leaf116
+    400590: leaf117
+    400592: leaf118
+    400594: leaf119
+    400596: leaf12
+    400598: leaf120
+    400600: leaf121
+    400602: leaf122
+    400604: leaf123
+    400606: leaf124
+    400608: leaf125
+    400610: leaf126
+    400612: leaf127
+    400614: leaf128
+    400616: leaf129
+    400618: leaf13
+    400620: leaf130
+    400622: leaf131
+    400624: leaf132
+    400626: leaf133
+    400628: leaf134
+    400630: leaf135
+    400632: leaf136
+    400634: leaf137
+    400636: leaf138
+    400638: leaf139
+    400640: leaf14
+    400642: leaf140
+    400644: leaf141
+    400646: leaf142
+    400648: leaf143
+    400650: leaf144
+    400652: leaf145
+    400654: leaf146
+    400656: leaf147
+    400658: leaf148
+    400660: leaf149
+    400662: leaf15
+    400664: leaf150
+    400666: leaf151
+    400668: leaf152
+    400670: leaf153
+    400672: leaf154
+    400674: leaf155
+    400676: leaf156
+    400678: leaf157
+    400680: leaf158
+    400682: leaf159
+    400684: leaf16
+    400686: leaf160
+    400688: leaf161
+    400690: leaf162
+    400692: leaf163
+    400694: leaf164
+    400696: leaf165
+    400698: leaf166
+    400700: leaf167
+    400702: leaf168
+    400704: leaf169
+    400706: leaf17
+    400708: leaf170
+    400710: leaf171
+    400712: leaf172
+    400714: leaf173
+    400716: leaf174
+    400718: leaf175
+    400720: leaf176
+    400722: leaf177
+    400724: leaf178
+    400726: leaf179
+    400728: leaf18
+    400730: leaf180
+    400732: leaf181
+    400734: leaf182
+    400736: leaf183
+    400738: leaf184
+    400740: leaf185
+    400742: leaf186
+    400744: leaf187
+    400746: leaf188
+    400748: leaf189
+    400750: leaf19
+    400752: leaf190
+    400754: leaf191
+    400756: leaf192
+    400758: leaf193
+    400760: leaf194
+    400762: leaf195
+    400764: leaf196
+    400766: leaf197
+    400768: leaf2
+    400770: leaf20
+    400772: leaf21
+    400774: leaf22
+    400776: leaf23
+    400778: leaf24
+    400780: leaf25
+    400782: leaf26
+    400784: leaf27
+    400786: leaf28
+    400788: leaf29
+    400790: leaf3
+    400792: leaf30
+    400794: leaf31
+    400796: leaf32
+    400798: leaf33
+    400800: leaf34
+    400802: leaf35
+    400804: leaf36
+    400806: leaf37
+    400808: leaf38
+    400810: leaf39
+    400812: leaf4
+    400814: leaf40
+    400816: leaf41
+    400818: leaf42
+    400820: leaf43
+    400822: leaf44
+    400824: leaf45
+    400826: leaf46
+    400828: leaf47
+    400830: leaf48
+    400832: leaf49
+    400834: leaf5
+    400836: leaf50
+    400838: leaf51
+    400840: leaf52
+    400842: leaf53
+    400844: leaf54
+    400846: leaf55
+    400848: leaf56
+    400850: leaf57
+    400852: leaf58
+    400854: leaf59
+    400856: leaf6
+    400858: leaf60
+    400860: leaf61
+    400862: leaf62
+    400864: leaf63
+    400866: leaf64
+    400868: leaf65
+    400870: leaf66
+    400872: leaf67
+    400874: leaf68
+    400876: leaf69
+    400878: leaf7
+    400880: leaf70
+    400882: leaf71
+    400884: leaf72
+    400886: leaf73
+    400888: leaf74
+    400890: leaf75
+    400892: leaf76
+    400894: leaf77
+    400896: leaf78
+    400898: leaf79
+    400900: leaf8
+    400902: leaf80
+    400904: leaf81
+    400906: leaf82
+    400908: leaf83
+    400910: leaf84
+    400912: leaf85
+    400914: leaf86
+    400916: leaf87
+    400918: leaf88
+    400920: leaf89
+    400922: leaf9
+    400924: leaf90
+    400926: leaf91
+    400928: leaf92
+    400930: leaf93
+    400932: leaf94
+    400934: leaf95
+    400936: leaf96
+    400938: leaf97
+    400940: leaf98
+    400942: leaf99
+    400944: leaves
+    400946: tree
+    400948: treeArm
+    4300000: tree
+    4300002: leaves
+    7400000: Default Take
+    7400002: windAction
+    9500000: //RootNode
+    13700000: leaves
+    13700002: tree
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: leaves
+        weight: 1
+      - path: tree
+        weight: 1
+      - path: treeArm
+        weight: 1
+      - path: treeArm/bone000_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone000_014
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone000_014/bone000_015
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone000_014/bone000_015/leaf9
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone000_014/bone045_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone000_014/bone045_000/leaf185
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone000_014/leaf8
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone036_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone036_000/bone036_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone036_000/bone036_001/leaf168
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/bone000_013/bone036_000/leaf167
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone000_012/leaf7
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone024_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone024_000/bone024_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone024_000/bone024_001/bone024_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone024_000/bone024_001/bone024_002/bone024_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone024_000/bone024_001/bone024_002/bone024_003/leaf138
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone024_000/bone024_001/bone024_002/leaf137
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/bone024_000/leaf136
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone000_010/bone000_011/leaf6
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone013_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone013_003/bone013_004
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone013_003/bone013_004/bone013_005
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone013_003/bone013_004/bone013_005/leaf95
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone013_003/bone013_004/bone051_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone013_003/bone013_004/bone051_000/leaf191
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone013_003/bone013_004/leaf94
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000/bone033_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000/bone033_001/bone033_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000/bone033_001/bone033_002/leaf162
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000/bone033_001/leaf161
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000/bone044_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000/bone044_000/bone044_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000/bone044_000/bone044_001/leaf184
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/bone033_000/bone044_000/leaf183
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/bone013_002/leaf93
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/bone013_000/bone013_001/leaf92
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/bone000_009/leaf5
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone000_008/leaf4
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone009_005
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone009_005/bone009_006
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone009_005/bone009_006/bone009_007
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone009_005/bone009_006/bone009_007/leaf74
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone009_005/bone009_006/leaf73
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone032_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone032_000/bone032_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone032_000/bone032_001/bone032_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone032_000/bone032_001/bone032_002/leaf160
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone032_000/bone032_001/bone056_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone032_000/bone032_001/bone056_000/leaf196
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/bone032_000/bone032_001/leaf159
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/bone009_004/leaf72
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone009_003/leaf71
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000/bone021_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000/bone021_001/bone021_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000/bone021_001/bone021_002/bone021_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000/bone021_001/bone021_002/bone021_003/bone021_004
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000/bone021_001/bone021_002/bone021_003/bone021_004/leaf127
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000/bone021_001/bone021_002/bone021_003/leaf126
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000/bone021_001/leaf125
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/bone009_002/bone021_000/leaf124
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/bone009_001/leaf70
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/bone000_007/bone009_000/leaf69
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone000_005/bone000_006/leaf3
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008/bone003_009
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008/bone003_009/bone003_010
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008/bone003_009/bone003_010/leaf36
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008/bone003_009/leaf35
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008/bone037_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008/bone037_000/bone037_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008/bone037_000/bone037_001/leaf170
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/bone003_008/bone037_000/leaf169
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/bone003_007/leaf34
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone003_005/bone003_006/leaf33
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone016_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone016_003/bone016_004
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone016_003/bone016_004/bone016_005
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone016_003/bone016_004/bone016_005/leaf107
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone016_003/bone016_004/leaf106
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone034_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone034_000/bone034_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone034_000/bone034_001/bone034_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone034_000/bone034_001/bone034_002/leaf164
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/bone034_000/bone034_001/leaf163
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/bone016_002/leaf105
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/bone016_000/bone016_001/leaf104
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/bone003_004/leaf32
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone003_003/leaf31
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003/bone011_004
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003/bone011_004/bone011_005
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003/bone011_004/bone011_005/bone011_006
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003/bone011_004/bone011_005/bone011_006/bone011_007
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003/bone011_004/bone011_005/bone011_006/bone011_007/leaf86
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003/bone011_004/bone011_005/bone011_006/leaf85
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003/bone011_004/leaf84
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone011_002/bone011_003/leaf83
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002/bone019_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002/bone019_003/bone019_004
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002/bone019_003/bone019_004/bone019_005
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002/bone019_003/bone019_004/bone019_005/leaf119
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002/bone019_003/bone019_004/bone053_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002/bone019_003/bone019_004/bone053_000/leaf193
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002/bone019_003/bone019_004/leaf118
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone019_002/leaf117
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone030_000
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone030_000/bone030_001
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone030_000/bone030_001/bone030_002
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone030_000/bone030_001/bone030_002/bone030_003
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone030_000/bone030_001/bone030_002/bone030_003/leaf156
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone030_000/bone030_001/bone030_002/leaf155
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/bone030_000/leaf154
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/bone019_000/bone019_001/leaf116
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/bone011_001/leaf82
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/bone003_002/bone011_000/leaf81
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/bone003_000/bone003_001/leaf30
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/bone000_004/leaf2
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/bone000_002/bone000_003/leaf1
+        weight: 1
+      - path: treeArm/bone000_000/bone000_001/leaf0
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone001_011
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone001_011/bone001_012
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone001_011/bone001_012/bone001_013
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone001_011/bone001_012/bone001_013/bone001_014
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone001_011/bone001_012/bone001_013/bone001_014/leaf19
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone001_011/bone001_012/bone001_013/leaf18
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone001_011/leaf17
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001/bone025_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001/bone025_002/bone025_003
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001/bone025_002/bone025_003/leaf141
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001/bone025_002/leaf140
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001/bone042_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001/bone042_000/bone042_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001/bone042_000/bone042_001/leaf180
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/bone025_001/bone042_000/leaf179
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/bone025_000/leaf139
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone001_009/bone001_010/leaf16
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone014_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone014_002/bone014_003
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone014_002/bone014_003/bone014_004
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone014_002/bone014_003/bone014_004/bone014_005
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone014_002/bone014_003/bone014_004/bone014_005/leaf99
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone014_002/bone014_003/bone014_004/leaf98
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone014_002/leaf97
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001/bone028_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001/bone028_002/bone028_003
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001/bone028_002/bone028_003/leaf150
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001/bone028_002/leaf149
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001/bone043_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001/bone043_000/bone043_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001/bone043_000/bone043_001/leaf182
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/bone028_001/bone043_000/leaf181
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/bone028_000/leaf148
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/bone014_000/bone014_001/leaf96
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/bone001_008/leaf15
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/bone001_006/bone001_007/leaf14
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone001_004/bone001_005/leaf13
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone004_008
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone004_008/bone004_009
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone004_008/bone004_009/bone004_010
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone004_008/bone004_009/bone004_010/leaf43
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone004_008/bone004_009/bone047_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone004_008/bone004_009/bone047_000/leaf187
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone004_008/bone004_009/leaf42
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone031_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone031_000/bone031_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone031_000/bone031_001/bone031_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone031_000/bone031_001/bone031_002/leaf158
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone031_000/bone031_001/bone055_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone031_000/bone031_001/bone055_000/leaf195
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/bone031_000/bone031_001/leaf157
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/bone004_007/leaf41
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone004_005/bone004_006/leaf40
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001/bone017_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001/bone017_002/bone017_003
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001/bone017_002/bone017_003/bone017_004
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001/bone017_002/bone017_003/bone017_004/bone017_005
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001/bone017_002/bone017_003/bone017_004/bone017_005/leaf111
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001/bone017_002/bone017_003/bone017_004/leaf110
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001/bone017_002/leaf109
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/bone017_000/bone017_001/leaf108
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/bone004_004/leaf39
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone004_002/bone004_003/leaf38
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005/bone007_006
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005/bone007_006/bone007_007
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005/bone007_006/bone007_007/bone007_008
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005/bone007_006/bone007_007/bone007_008/leaf62
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005/bone007_006/bone007_007/bone048_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005/bone007_006/bone007_007/bone048_000/leaf188
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005/bone007_006/bone007_007/leaf61
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone007_005/leaf60
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone027_000
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone027_000/bone027_001
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone027_000/bone027_001/bone027_002
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone027_000/bone027_001/bone027_002/bone027_003
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone027_000/bone027_001/bone027_002/bone027_003/leaf147
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone027_000/bone027_001/bone027_002/leaf146
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/bone027_000/leaf145
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/bone007_003/bone007_004/leaf59
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/bone007_001/bone007_002/leaf58
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/bone007_000/leaf57
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/bone004_000/bone004_001/leaf37
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/bone001_003/leaf12
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/bone001_001/bone001_002/leaf11
+        weight: 1
+      - path: treeArm/bone000_000/bone001_000/leaf10
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011/bone002_012
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011/bone002_012/bone002_013
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011/bone002_012/bone002_013/bone002_014
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011/bone002_012/bone002_013/bone002_014/leaf29
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011/bone002_012/bone002_013/bone046_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011/bone002_012/bone002_013/bone046_000/leaf186
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011/bone002_012/bone002_013/leaf28
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/bone002_011/leaf27
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone002_009/bone002_010/leaf26
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone015_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone015_002/bone015_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone015_002/bone015_003/bone015_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone015_002/bone015_003/bone015_004/bone015_005
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone015_002/bone015_003/bone015_004/bone015_005/leaf103
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone015_002/bone015_003/bone015_004/leaf102
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone015_002/leaf101
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone029_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone029_000/bone029_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone029_000/bone029_001/bone029_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone029_000/bone029_001/bone029_002/bone029_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone029_000/bone029_001/bone029_002/bone029_003/leaf153
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone029_000/bone029_001/bone029_002/leaf152
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/bone029_000/leaf151
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/bone015_000/bone015_001/leaf100
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/bone002_008/leaf25
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone002_007/leaf24
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004/bone010_005
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004/bone010_005/bone010_006
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004/bone010_005/bone010_006/bone010_007
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004/bone010_005/bone010_006/bone010_007/leaf80
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004/bone010_005/bone010_006/bone049_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004/bone010_005/bone010_006/bone049_000/leaf189
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004/bone010_005/bone010_006/leaf79
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/bone010_004/leaf78
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone010_003/leaf77
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000/bone022_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000/bone022_001/bone022_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000/bone022_001/bone022_002/bone022_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000/bone022_001/bone022_002/bone022_003/bone022_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000/bone022_001/bone022_002/bone022_003/bone022_004/leaf131
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000/bone022_001/bone022_002/bone022_003/leaf130
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000/bone022_001/leaf129
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/bone010_002/bone022_000/leaf128
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/bone010_001/leaf76
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone002_006/bone010_000/leaf75
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone006_005
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone006_005/bone006_006
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone006_005/bone006_006/bone006_007
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone006_005/bone006_006/bone006_007/bone006_008
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone006_005/bone006_006/bone006_007/bone006_008/leaf56
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone006_005/bone006_006/bone006_007/leaf55
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone006_005/leaf54
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000/bone026_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000/bone026_001/bone026_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000/bone026_001/bone026_002/bone026_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000/bone026_001/bone026_002/bone026_003/leaf144
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000/bone026_001/bone026_002/bone054_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000/bone026_001/bone026_002/bone054_000/leaf194
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000/bone026_001/bone026_002/leaf143
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/bone026_000/leaf142
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone006_003/bone006_004/leaf53
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone018_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone018_004/bone018_005
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone018_004/bone018_005/leaf115
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone018_004/bone052_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone018_004/bone052_000/leaf192
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone018_004/leaf114
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone040_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone040_000/bone040_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone040_000/bone040_001/leaf176
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/bone018_003/bone040_000/leaf175
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/bone018_002/leaf113
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/bone018_000/bone018_001/leaf112
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/bone006_001/bone006_002/leaf52
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/bone006_000/leaf51
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone002_004/bone002_005/leaf23
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008/bone005_009
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008/bone005_009/bone005_010
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008/bone005_009/bone005_010/leaf50
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008/bone005_009/leaf49
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008/bone038_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008/bone038_000/bone038_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008/bone038_000/bone038_001/leaf172
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/bone005_008/bone038_000/leaf171
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/bone005_007/leaf48
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/bone005_005/bone005_006/leaf47
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/bone005_004/leaf46
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone005_002/bone005_003/leaf45
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006/bone008_007
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006/bone008_007/bone008_008
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006/bone008_007/bone008_008/leaf68
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006/bone008_007/leaf67
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006/bone039_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006/bone039_000/bone039_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006/bone039_000/bone039_001/leaf174
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/bone008_006/bone039_000/leaf173
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/bone008_005/leaf66
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone008_004/leaf65
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone020_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone020_002/bone020_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone020_002/bone020_003/bone020_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone020_002/bone020_003/bone020_004/leaf123
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone020_002/bone020_003/leaf122
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone035_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone035_000/bone035_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone035_000/bone035_001/bone035_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone035_000/bone035_001/bone035_002/leaf166
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/bone035_000/bone035_001/leaf165
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/bone020_001/leaf121
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/bone008_003/bone020_000/leaf120
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone008_002/leaf64
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003/bone012_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003/bone012_004/bone012_005
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003/bone012_004/bone012_005/bone012_006
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003/bone012_004/bone012_005/bone012_006/leaf91
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003/bone012_004/bone012_005/bone050_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003/bone012_004/bone012_005/bone050_000/leaf190
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003/bone012_004/bone012_005/leaf90
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/bone012_003/leaf89
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone012_002/leaf88
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone023_003
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone023_003/bone023_004
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone023_003/bone023_004/leaf135
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone023_003/leaf134
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone041_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone041_000/bone041_001
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone041_000/bone041_001/leaf178
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone041_000/bone057_000
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone041_000/bone057_000/leaf197
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/bone023_002/bone041_000/leaf177
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/bone023_001/leaf133
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/bone012_001/bone023_000/leaf132
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/bone008_001/bone012_000/leaf87
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/bone008_000/leaf63
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/bone005_000/bone005_001/leaf44
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/bone002_003/leaf22
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/bone002_001/bone002_002/leaf21
+        weight: 1
+      - path: treeArm/bone000_000/bone002_000/leaf20
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
