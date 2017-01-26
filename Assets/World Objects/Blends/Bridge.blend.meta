@@ -12,7 +12,9 @@ ModelImporter:
     400002: Bridge
     400004: Empty
     2300000: Bridge
+    2300002: //RootNode
     3300000: Bridge
+    3300002: //RootNode
     4300000: Bridge
     7400000: Default Take
     9500000: //RootNode
