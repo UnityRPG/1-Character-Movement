@@ -11,16 +11,23 @@ public class Enemy : MonoBehaviour {
     int damagePointsPerAttack = 1;
     [SerializeField]
     float secondsBetweenAttacks = 0.1f;
+    [SerializeField]
+    Material attackingMaterial;
+    [SerializeField]
+    int maxHealthPoints = 100;
 
-
+    int currentHealthPoints;
     Player player;
     NavMeshAgent navMeshAgent;
     bool isAttacking = false;
+    SkinnedMeshRenderer enemySkin;
 
     // Use this for initialization
     void Start() {
         player = FindObjectOfType<Player>();
         navMeshAgent = GetComponent<NavMeshAgent>();
+        enemySkin = GetComponentInChildren<SkinnedMeshRenderer>();
+        currentHealthPoints = maxHealthPoints;
     }
 
     // Update is called once per frame
@@ -31,7 +38,7 @@ public class Enemy : MonoBehaviour {
             navMeshAgent.SetDestination(player.transform.position);
             if (!isAttacking) {
                 isAttacking = true;
-                InvokeRepeating("DealPeriodicDamage", 0f, secondsBetweenAttacks);
+                InvokeRepeating("PeriodicallyAttackPlayer", 0f, secondsBetweenAttacks); // TODO avoid string reference?
             }
         }
         else
@@ -41,9 +48,25 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    void DealPeriodicDamage()
+    // Note copy-paste from player
+    public void TakeDamage(int damagePoints)
     {
-        player.DealDamage(damagePointsPerAttack);
+        var newHealthPoints = currentHealthPoints - damagePoints;
+        currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
+    }
+
+    public float healthAsPercentage
+    {
+        get
+        {
+            return currentHealthPoints / (float)maxHealthPoints;
+        }
+    }
+
+    void PeriodicallyAttackPlayer()
+    {
+        player.TakeDamage(damagePointsPerAttack);
+        enemySkin.material = attackingMaterial;
     }
 
     void OnDrawGizmosSelected()

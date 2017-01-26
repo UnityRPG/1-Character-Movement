@@ -26,14 +26,15 @@ public class Player : MonoBehaviour {
 
     }
 
-    public float healthAsPercentage {
+    public float healthAsPercentage
+    {
         get
         {
             return currentHealthPoints / (float)maxHealthPoints;
         }
     }
 
-    public void DealDamage(int damagePoints)
+    public void TakeDamage(int damagePoints)
     {
         var newHealthPoints = currentHealthPoints - damagePoints;
         currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);

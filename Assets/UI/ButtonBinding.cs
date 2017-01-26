@@ -12,6 +12,6 @@ public class ButtonBinding : MonoBehaviour {
 	}
 
     public void DealPlayerDamage(int amount) {
-        player.DealDamage(amount);
+        player.TakeDamage(amount);
     }
 }
