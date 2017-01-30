@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.4492215, g: 0.49929225, b: 0.5757134, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -90,7 +90,7 @@ NavMeshSettings:
     manualCellSize: 0
     cellSize: 0.16666667
     accuratePlacement: 0
-  m_NavMeshData: {fileID: 23800000, guid: 08d66f0b54cc8764a9fdfcfe9f1cf3ff, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: d88eb4d6c71b3dc4c84d5e5fe4010b98, type: 2}
 --- !u!1 &966081
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 75667431}
   - component: {fileID: 75667430}
   - component: {fileID: 75667429}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3243,7 +3243,7 @@ GameObject:
   - component: {fileID: 472795411}
   - component: {fileID: 472795410}
   - component: {fileID: 472795409}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3606,7 +3606,7 @@ GameObject:
   - component: {fileID: 529658449}
   - component: {fileID: 529658448}
   - component: {fileID: 529658447}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8267,7 +8267,7 @@ GameObject:
   - component: {fileID: 1146948312}
   - component: {fileID: 1146948311}
   - component: {fileID: 1146948310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8596,7 +8596,7 @@ GameObject:
   - component: {fileID: 1204317914}
   - component: {fileID: 1204317913}
   - component: {fileID: 1204317912}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10798,7 +10798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1493522014
 Transform:
   m_ObjectHideFlags: 0
@@ -11801,7 +11801,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 7
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.80223125, b: 0.71323526, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -11810,7 +11810,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.6
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -11832,13 +11832,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1569429326}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -35.8, y: -132.1, z: 213.9}
+  m_LocalRotation: {x: 0.3360332, y: -0.22494832, z: 0.12800594, w: 0.9055907}
+  m_LocalPosition: {x: 39.2, y: 28, z: 121.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 41.775, y: -25.528002, z: 6.209}
 --- !u!4 &1571939754 stripped
 Transform:
   m_PrefabParentObject: {fileID: 436670, guid: 54eb5844754051b40a918a84c33b7c1a, type: 2}
@@ -11854,7 +11854,7 @@ GameObject:
   - component: {fileID: 1574449347}
   - component: {fileID: 1574449346}
   - component: {fileID: 1574449345}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
