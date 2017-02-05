@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: PineTree_Trunk
+  m_Name: Pine_Leaves
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 187c31e1e7b9da041bc5a40282c4294a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2ad44c74caa580646b8a5ea6162e7bde, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -72,7 +72,7 @@ Material:
     m_Floats:
     - first:
         name: _BumpScale
-      second: -2.1
+      second: 1
     - first:
         name: _Cutoff
       second: 0.5
@@ -102,7 +102,7 @@ Material:
       second: 1
     - first:
         name: _Parallax
-      second: 0.054
+      second: 0.02
     - first:
         name: _SmoothnessTextureChannel
       second: 0
