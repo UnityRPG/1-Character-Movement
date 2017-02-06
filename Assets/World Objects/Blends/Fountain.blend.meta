@@ -8,17 +8,22 @@ ModelImporter:
     100000: //RootNode
     100002: Fountain
     100004: Statue
+    100006: LP_Knight
     400000: //RootNode
     400002: Fountain
     400004: Statue
+    400006: LP_Knight
     2300000: //RootNode
     2300002: Fountain
     2300004: Statue
+    2300006: LP_Knight
     3300000: //RootNode
     3300002: Fountain
     3300004: Statue
+    3300006: LP_Knight
     4300000: Fountain
     4300002: Statue
+    4300004: LP_Knight
     7400000: Default Take
     9500000: //RootNode
   materials:
