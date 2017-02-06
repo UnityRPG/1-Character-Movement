@@ -14,6 +14,7 @@ namespace RPG {
         [SerializeField] AudioClip[] startSounds;
         [SerializeField] float radialDamageRadius = 5f;
         [SerializeField] float radialDamagePerSecond = 10f;
+        [SerializeField] GameObject currentTarget = null;
 
         bool isAlive = true;
         SkinnedMeshRenderer playerSkin;
@@ -25,6 +26,16 @@ namespace RPG {
             playerSkin = GetComponentInChildren<SkinnedMeshRenderer>();
             AudioSource.PlayClipAtPoint(PickRandomAudioClip(startSounds), transform.position); // TODO stick to player
             InvokeRepeating("DoRadialDamage", 0f, 1f);
+        }
+
+        public void SetTarget(GameObject target)
+        {
+            currentTarget = target;
+        }
+
+        public void ClearTarget()
+        {
+            currentTarget = null;
         }
 
         public float healthAsPercentage
