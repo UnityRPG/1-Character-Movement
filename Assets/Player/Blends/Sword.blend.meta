@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7a31244a248b17e40bc71c932dd54e81
-timeCreated: 1486402518
+guid: 1ea5b672b7be3514ba2689b2487431c3
+timeCreated: 1486409563
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cottage_Porch
+    4300000: Sword
     7400000: Default Take
     9500000: //RootNode
   materials:
