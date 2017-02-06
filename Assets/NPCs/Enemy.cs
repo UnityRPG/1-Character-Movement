@@ -26,7 +26,7 @@ namespace RPG
         Player player;
         NavMeshAgent navMeshAgent;
         bool isAttacking = false;
-        bool isBeingAttacked = false;
+        // bool isBeingAttacked = false;
         SkinnedMeshRenderer enemySkin;
         bool isAlive = true;
 
