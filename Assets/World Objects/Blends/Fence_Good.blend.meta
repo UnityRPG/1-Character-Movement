@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7a31244a248b17e40bc71c932dd54e81
-timeCreated: 1486402518
+guid: e356f563152ac60489c559808b2cb65f
+timeCreated: 1486409998
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cottage_Porch
+    4300000: Fence_Good
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -74,7 +74,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
