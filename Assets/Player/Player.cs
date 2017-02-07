@@ -28,6 +28,8 @@ namespace RPG {
             InvokeRepeating("DoRadialDamage", 0f, 1f);
         }
 
+        
+
         public void SetTarget(GameObject target)
         {
             currentTarget = target;
@@ -36,6 +38,14 @@ namespace RPG {
         public void ClearTarget()
         {
             currentTarget = null;
+        }
+
+        public bool isAttacking
+        {
+            get
+            {
+                return currentTarget != null;
+            }
         }
 
         public float healthAsPercentage
