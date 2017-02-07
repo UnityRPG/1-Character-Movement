@@ -21,7 +21,9 @@ GameObject:
   - component: {fileID: 4766789350153030}
   - component: {fileID: 137033013892585126}
   - component: {fileID: 95324892600709520}
-  m_Layer: 0
+  - component: {fileID: 135400535993658746}
+  - component: {fileID: 114320237222827868}
+  m_Layer: 10
   m_Name: PulsingBLob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,8 +36,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1027586202523478}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.503909, y: 1, z: 6.947714}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.15, y: 1, z: 9.79}
   m_LocalScale: {x: 1.7246033, y: 1.7246033, z: 1.7246033}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,6 +60,29 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114320237222827868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1027586202523478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 965943b2a30d65b409e871244e3a29db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &135400535993658746
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1027586202523478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.77
+  m_Center: {x: -0.2, y: 0.28, z: 0.67}
 --- !u!137 &137033013892585126
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -96,8 +121,8 @@ SkinnedMeshRenderer:
   m_Mesh: {fileID: 4300000, guid: 72121c357142f70408a38eed64194e00, type: 3}
   m_Bones: []
   m_BlendShapeWeights:
-  - 37.45
-  - -52.67
+  - 46.52
+  - 28.17
   m_RootBone: {fileID: 0}
   m_AABB:
     m_Center: {x: 0.043491483, y: -0.08365697, z: 0.00000047683716}
