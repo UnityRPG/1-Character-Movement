@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 137033013892585126}
   - component: {fileID: 95324892600709520}
   m_Layer: 0
-  m_Name: sLOTTED cUBE
+  m_Name: PulsingBLob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ SkinnedMeshRenderer:
   m_Mesh: {fileID: 4300000, guid: 72121c357142f70408a38eed64194e00, type: 3}
   m_Bones: []
   m_BlendShapeWeights:
-  - 0.64
+  - 37.45
   - -52.67
   m_RootBone: {fileID: 0}
   m_AABB:
