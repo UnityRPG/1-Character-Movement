@@ -17,6 +17,7 @@ namespace RPG
         CameraRaycaster cameraRaycaster;
         Vector3 currentClickTarget;
         float currentClickRange = 1f;
+        Player player;
         
         private void Start()
         {
@@ -24,6 +25,7 @@ namespace RPG
             cameraRaycaster = mainCamera.GetComponent<CameraRaycaster>();
             m_Character = GetComponent<ThirdPersonCharacter>();
             currentClickTarget = transform.position;
+            player = FindObjectOfType<Player>();
         }
 
         // Fixed update is called in sync with physics
@@ -53,9 +55,11 @@ namespace RPG
                 {
                     case Layer.Walkable:
                         currentClickRange = walkMoveStopRadius;
+                        player.ClearTarget();
                         break;
                     case Layer.Enemy:
                         currentClickRange = attackMoveStopRadius;
+                        player.SetTarget(cameraRaycaster.hit.collider.gameObject);
                         break;
                     default:
                         return; // Do nothing clicking outside world
