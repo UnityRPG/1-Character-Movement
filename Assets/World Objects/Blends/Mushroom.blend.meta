@@ -1,16 +1,73 @@
 fileFormatVersion: 2
-guid: 72121c357142f70408a38eed64194e00
-timeCreated: 1486424273
+guid: 5e27fd764730974419f8ff13a78c9a2f
+timeCreated: 1486429976
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Mushroom
+    100004: Mushroom_001
+    100006: Mushroom_002
+    100008: Mushroom_003
+    100010: Mushroom_004
+    100012: Mushroom_005
+    100014: Mushroom_006
+    100016: Mushroom_007
+    100018: Mushroom_008
+    100020: Mushroom_009
+    100022: Mushroom_010
+    100024: Mushroom_011
+    100026: Mushroom_012
+    100028: Mushroom_013
     400000: //RootNode
-    4300000: Cube
+    400002: Mushroom
+    400004: Mushroom_001
+    400006: Mushroom_002
+    400008: Mushroom_003
+    400010: Mushroom_004
+    400012: Mushroom_005
+    400014: Mushroom_006
+    400016: Mushroom_007
+    400018: Mushroom_008
+    400020: Mushroom_009
+    400022: Mushroom_010
+    400024: Mushroom_011
+    400026: Mushroom_012
+    400028: Mushroom_013
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Mushroom
+    4300002: Mushroom_013
+    4300004: Mushroom_012
+    4300006: Mushroom_011
+    4300008: Mushroom_010
+    4300010: Mushroom_009
+    4300012: Mushroom_008
+    4300014: Mushroom_007
+    4300016: Mushroom_006
+    4300018: Mushroom_005
+    4300020: Mushroom_004
+    4300022: Mushroom_003
+    4300024: Mushroom_002
+    4300026: Mushroom_001
     7400000: Default Take
     9500000: //RootNode
     13700000: //RootNode
+    13700002: Mushroom
+    13700004: Mushroom_001
+    13700006: Mushroom_002
+    13700008: Mushroom_003
+    13700010: Mushroom_004
+    13700012: Mushroom_005
+    13700014: Mushroom_006
+    13700016: Mushroom_007
+    13700018: Mushroom_008
+    13700020: Mushroom_009
+    13700022: Mushroom_010
+    13700024: Mushroom_011
+    13700026: Mushroom_012
+    13700028: Mushroom_013
   materials:
     importMaterials: 1
     materialName: 0
@@ -25,43 +82,13 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Default Take
-      takeName: Default Take
-      firstFrame: 0
-      lastFrame: 38
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
