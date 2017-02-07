@@ -16,6 +16,6 @@ public class PulseBlob : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         skinnedMeshRenderer.SetBlendShapeWeight(0, animator.GetFloat("Key 1"));
-        skinnedMeshRenderer.SetBlendShapeWeight(1, animator.GetFloat("Key 2"));
+
     }
 }
