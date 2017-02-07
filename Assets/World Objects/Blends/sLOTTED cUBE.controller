@@ -8,7 +8,6 @@ AnimatorController:
   m_Name: sLOTTED cUBE
   serializedVersion: 5
   m_AnimatorParameters: []
-<<<<<<< Updated upstream
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -66,6 +65,3 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102596745979067004}
-=======
-  m_AnimatorLayers: []
->>>>>>> Stashed changes

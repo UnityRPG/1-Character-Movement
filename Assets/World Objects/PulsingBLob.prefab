@@ -96,11 +96,7 @@ SkinnedMeshRenderer:
   m_Mesh: {fileID: 4300000, guid: 72121c357142f70408a38eed64194e00, type: 3}
   m_Bones: []
   m_BlendShapeWeights:
-<<<<<<< Updated upstream
   - 37.45
-=======
-  - 0.64
->>>>>>> Stashed changes
   - -52.67
   m_RootBone: {fileID: 0}
   m_AABB:
