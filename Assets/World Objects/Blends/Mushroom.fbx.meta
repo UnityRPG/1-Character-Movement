@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 6ef7cf3c58e60324b8df283f5dedfb8e
+timeCreated: 1486432568
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mushroom
+    100004: Mushroom.001
+    100006: Mushroom.002
+    100008: Mushroom.003
+    100010: Mushroom.004
+    100012: Mushroom.005
+    100014: Mushroom.006
+    100016: Mushroom.007
+    100018: Mushroom.008
+    100020: Mushroom.009
+    100022: Mushroom.010
+    100024: Mushroom.011
+    100026: Mushroom.012
+    100028: Mushroom.013
+    400000: //RootNode
+    400002: Mushroom
+    400004: Mushroom.001
+    400006: Mushroom.002
+    400008: Mushroom.003
+    400010: Mushroom.004
+    400012: Mushroom.005
+    400014: Mushroom.006
+    400016: Mushroom.007
+    400018: Mushroom.008
+    400020: Mushroom.009
+    400022: Mushroom.010
+    400024: Mushroom.011
+    400026: Mushroom.012
+    400028: Mushroom.013
+    4300000: Mushroom
+    4300002: Mushroom.013
+    4300004: Mushroom.002
+    4300006: Mushroom.006
+    7400000: Mushroom|Action
+    7400002: Mushroom.013|Action
+    7400004: Mushroom.012|Action
+    7400006: Mushroom.011|Action
+    7400008: Mushroom.010|Action
+    7400010: Mushroom.009|Action
+    7400012: Mushroom.008|Action
+    7400014: Mushroom.007|Action
+    7400016: Mushroom.006|Action
+    7400018: Mushroom.005|Action
+    7400020: Mushroom.004|Action
+    7400022: Mushroom.003|Action
+    7400024: Mushroom.002|Action
+    7400026: Mushroom.001|Action
+    7400028: Mushroom.013|Mushroom.001Action
+    7400030: Mushroom.013|Mushroom.002Action
+    7400032: Mushroom.012|Mushroom.001Action
+    7400034: Mushroom.012|Mushroom.002Action
+    7400036: Mushroom.011|Mushroom.001Action
+    7400038: Mushroom.011|Mushroom.002Action
+    7400040: Mushroom.010|Mushroom.001Action
+    7400042: Mushroom.010|Mushroom.002Action
+    7400044: Mushroom.009|Mushroom.001Action
+    7400046: Mushroom.009|Mushroom.002Action
+    7400048: Mushroom.008|Mushroom.001Action
+    7400050: Mushroom.008|Mushroom.002Action
+    7400052: Mushroom.007|Mushroom.001Action
+    7400054: Mushroom.007|Mushroom.002Action
+    7400056: Mushroom.006|Mushroom.001Action
+    7400058: Mushroom.006|Mushroom.002Action
+    7400060: Mushroom.005|Mushroom.001Action
+    7400062: Mushroom.005|Mushroom.002Action
+    7400064: Mushroom.004|Mushroom.001Action
+    7400066: Mushroom.004|Mushroom.002Action
+    7400068: Mushroom.003|Mushroom.001Action
+    7400070: Mushroom.003|Mushroom.002Action
+    7400072: Mushroom.002|Mushroom.001Action
+    7400074: Mushroom.002|Mushroom.002Action
+    7400076: Mushroom.001|Mushroom.001Action
+    7400078: Mushroom.001|Mushroom.002Action
+    7400080: Mushroom|Mushroom.001Action
+    7400082: Mushroom|Mushroom.002Action
+    9500000: //RootNode
+    13700000: //RootNode
+    13700002: Mushroom
+    13700004: Mushroom.001
+    13700006: Mushroom.002
+    13700008: Mushroom.003
+    13700010: Mushroom.004
+    13700012: Mushroom.005
+    13700014: Mushroom.006
+    13700016: Mushroom.007
+    13700018: Mushroom.008
+    13700020: Mushroom.009
+    13700022: Mushroom.010
+    13700024: Mushroom.011
+    13700026: Mushroom.012
+    13700028: Mushroom.013
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
