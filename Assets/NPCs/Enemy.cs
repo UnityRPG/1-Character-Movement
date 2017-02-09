@@ -7,9 +7,7 @@ namespace RPG
 {
     public class Enemy : MonoBehaviour
     {
-        [SerializeField]
-        [Tooltip("Select the NPC AI prefab")]
-        GameObject npcUIPrefab = null;
+
         [SerializeField]
         [Tooltip("To visualise switch to Scene and select enemy(s)")]
         float attackRadius = 1f;
@@ -36,7 +34,7 @@ namespace RPG
         // Use this for initialization
         void Start()
         {
-            var npcUI = Instantiate(npcUIPrefab, transform.position, Quaternion.identity, transform);
+
 
             player = FindObjectOfType<Player>();
             navMeshAgent = GetComponent<NavMeshAgent>();

@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AlignWithCamera : MonoBehaviour {
+public class NPC_UI : MonoBehaviour {
+
+    [SerializeField]
+    [Tooltip("Select the NPC AI prefab")]
+    GameObject npcUIPrefab = null;
 
     Camera cameraToLookAt;
-
+    
     // Use this for initialization 
     void Start()
     {
         cameraToLookAt = Camera.main;
+        Instantiate(npcUIPrefab, transform.position, Quaternion.identity, transform);
     }
 
     // Update is called once per frame 
