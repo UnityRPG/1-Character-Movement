@@ -21,7 +21,7 @@ public class NPC_UI : MonoBehaviour {
     }
 
     // Update is called once per frame 
-    void Update()
+    void LateUpdate()
     {
         //var directionToLook = Quaternion.LookRotation(cameraToLookAt.transform.position - transform.position); 
         transform.LookAt(cameraToLookAt.transform);
