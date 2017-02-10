@@ -22,6 +22,7 @@ ExportedObj/
 *.pidb.meta
 [Tt]humbs.db.meta
 [Tt]humbs.db
+*.psd.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
