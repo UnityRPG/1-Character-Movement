@@ -21,7 +21,8 @@ namespace RPG
         int maxHealthPoints = 100;
         [SerializeField]
         Material ghostMaterial;
-
+        [SerializeField]
+        AudioClip[] damageSounds;
 
         int currentHealthPoints;
         Player player;
@@ -34,8 +35,6 @@ namespace RPG
         // Use this for initialization
         void Start()
         {
-
-
             player = FindObjectOfType<Player>();
             navMeshAgent = GetComponent<NavMeshAgent>();
             enemySkin = GetComponentInChildren<SkinnedMeshRenderer>();
@@ -78,6 +77,7 @@ namespace RPG
         {
             var newHealthPoints = currentHealthPoints - points; // TODO note hard code due to string reference of messsage
             currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
+            AudioSource.PlayClipAtPoint(damageSounds[Random.Range(0, damageSounds.Length)], transform.position);
         }
 
         public float healthAsPercentage
