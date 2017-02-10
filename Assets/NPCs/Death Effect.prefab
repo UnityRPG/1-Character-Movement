@@ -78,7 +78,7 @@ ParticleSystem:
   speed: 0.2
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   autoRandomSeed: 1
   startDelay:
     scalar: 0

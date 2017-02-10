@@ -10,8 +10,13 @@ namespace RPG {
         [SerializeField] int maxHealthPoints = 100;
         [SerializeField] Material ghostMaterial;
 
-        [SerializeField] AudioClip[] deathSounds;
         [SerializeField] AudioClip[] startSounds;
+
+        [Tooltip ("Otherwise known as damage sounds")]
+        [SerializeField] AudioClip[] snonkSounds;
+
+        [SerializeField] AudioClip[] deathSounds;
+        
         [SerializeField] float radialDamageRadius = 5f;
         [SerializeField] float radialDamagePerSecond = 10f;
         [SerializeField] GameObject currentTarget = null;
@@ -61,6 +66,7 @@ namespace RPG {
         {
             var newHealthPoints = currentHealthPoints - damagePoints;
             currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
+            AudioSource.PlayClipAtPoint(PickRandomAudioClip(snonkSounds), transform.position);
         }
 
         void Update()
