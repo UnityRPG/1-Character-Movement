@@ -18,9 +18,10 @@ ExportedObj/
 *.booproj
 *.svd
 
-
 # Unity3D generated meta files
 *.pidb.meta
+[Tt]humbs.db.meta
+[Tt]humbs.db
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
