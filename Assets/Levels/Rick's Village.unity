@@ -10172,7 +10172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce71335b39e39b64fbfde405a895297b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 714427990}
+  source: {fileID: 0}
   clip: {fileID: 0}
 --- !u!65 &714427989
 BoxCollider:
@@ -14075,7 +14075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce71335b39e39b64fbfde405a895297b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 1012622843}
+  source: {fileID: 0}
   clip: {fileID: 0}
 --- !u!65 &1012622842
 BoxCollider:
