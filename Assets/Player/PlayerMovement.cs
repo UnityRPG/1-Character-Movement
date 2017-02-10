@@ -31,7 +31,7 @@ namespace RPG
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
-            if (Input.GetKeyDown(KeyCode.G))
+            if (Input.GetKeyDown(KeyCode.G)) // TODO string reference as constant
             {
                 isInDirectMode = !isInDirectMode;
             }
