@@ -15,6 +15,7 @@ namespace RPG {
         [SerializeField] float radialDamageRadius = 5f;
         [SerializeField] float radialDamagePerSecond = 10f;
         [SerializeField] GameObject currentTarget = null;
+        [SerializeField] AudioClip[] damageSounds;
 
         bool isAlive = true;
         SkinnedMeshRenderer playerSkin;
