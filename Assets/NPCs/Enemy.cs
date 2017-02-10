@@ -31,6 +31,7 @@ namespace RPG
         // bool isBeingAttacked = false;
         SkinnedMeshRenderer enemySkin;
         bool isAlive = true;
+        ParticleSystem hiParticleEffect = null;
 
         // Use this for initialization
         void Start()
@@ -39,6 +40,7 @@ namespace RPG
             navMeshAgent = GetComponent<NavMeshAgent>();
             enemySkin = GetComponentInChildren<SkinnedMeshRenderer>();
             currentHealthPoints = maxHealthPoints;
+            hiParticleEffect = transform.FindChild("Hit Particles").GetComponent<ParticleSystem>(); // NOTE string reference
         }
 
         // Update is called once per frame
@@ -78,6 +80,7 @@ namespace RPG
             var newHealthPoints = currentHealthPoints - points; // TODO note hard code due to string reference of messsage
             currentHealthPoints = Mathf.Clamp(newHealthPoints, 0, maxHealthPoints);
             AudioSource.PlayClipAtPoint(damageSounds[Random.Range(0, damageSounds.Length)], transform.position);
+            hiParticleEffect.Play();
         }
 
         public float healthAsPercentage
