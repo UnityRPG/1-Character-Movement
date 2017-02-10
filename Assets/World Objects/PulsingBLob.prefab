@@ -71,6 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3df1ae4556701419cc56c9983d3da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  skinnedMeshRenderer: {fileID: 0}
 --- !u!135 &135400535993658746
 SphereCollider:
   m_ObjectHideFlags: 1
