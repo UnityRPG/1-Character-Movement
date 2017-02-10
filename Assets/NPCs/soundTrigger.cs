@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class soundTrigger : MonoBehaviour {
+public class SoundTrigger : MonoBehaviour {
 
 	public AudioSource source;
 	public AudioClip clip; 

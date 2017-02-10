@@ -22,6 +22,7 @@ namespace RPG
         [SerializeField]
         Material ghostMaterial;
 
+
         int currentHealthPoints;
         Player player;
         NavMeshAgent navMeshAgent;
@@ -33,6 +34,8 @@ namespace RPG
         // Use this for initialization
         void Start()
         {
+
+
             player = FindObjectOfType<Player>();
             navMeshAgent = GetComponent<NavMeshAgent>();
             enemySkin = GetComponentInChildren<SkinnedMeshRenderer>();

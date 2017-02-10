@@ -82,7 +82,7 @@ namespace RPG {
             int i = 0;
             while (i < hitColliders.Length)
             {
-                hitColliders[i].SendMessage("DoFixedDamage", radialDamagePerSecond);
+                hitColliders[i].BroadcastMessage("DoFixedDamage", radialDamagePerSecond);
                 i++;
             }
         }
