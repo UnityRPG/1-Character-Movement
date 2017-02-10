@@ -23,6 +23,8 @@ namespace RPG
         Material ghostMaterial;
         [SerializeField]
         AudioClip[] damageSounds;
+        [SerializeField]
+        ParticleSystem deathEffect;
 
         int currentHealthPoints;
         Player player;
@@ -70,6 +72,7 @@ namespace RPG
                 // AudioSource.PlayClipAtPoint(PickRandomAudioClip(deathSounds), transform.position); TODO add enemy death sounds
                 enemySkin.material = ghostMaterial;
                 CancelInvoke();
+                Instantiate(deathEffect, transform.position, Quaternion.identity);
                 gameObject.SetActive(false);
             }
         }

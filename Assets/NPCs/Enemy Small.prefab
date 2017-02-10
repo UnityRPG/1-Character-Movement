@@ -1818,7 +1818,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113348}
   m_LocalRotation: {x: -0, y: -0.99149305, z: -0, w: 0.13015974}
-  m_LocalPosition: {x: -0.84, y: 0, z: 1.34}
+  m_LocalPosition: {x: -23.86, y: 0, z: 6.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4772341890010242}
@@ -2036,7 +2036,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119590}
-  m_LocalRotation: {x: 0.5326752, y: 0.070340455, z: 0.83613276, w: -0.110415146}
+  m_LocalRotation: {x: 0.53267515, y: 0.07034045, z: 0.83613265, w: -0.11041513}
   m_LocalPosition: {x: 0.000022271464, y: -0.00006150465, z: 0.026027026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2847,6 +2847,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4cb9b81c7d60eab4bb4492328ad266f9, type: 3}
   - {fileID: 8300000, guid: 031e290bb5ce7c2469ed6c8c65180d10, type: 3}
   - {fileID: 8300000, guid: 42935a8818cbf0940a80627d44a4fbfe, type: 3}
+  deathEffect: {fileID: 198661686500589322, guid: a637beff6978b154caccb465ea62ff64,
+    type: 2}
 --- !u!198 &198523776565098038
 ParticleSystem:
   m_ObjectHideFlags: 1
