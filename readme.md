@@ -1,4 +1,4 @@
-## About This Repo
+## Unity RPG Course - Section 1 - Combat Moment
 Part of our upcoming RPG course, see our course list [here](https://www.udemy.com/u/bentristem/). The full course is part of [this ](https://www.udemy.com/draft/1110626/?instructorPreviewMode=guest&password=earlyaccess) kickstarter campaign which was over 200% funded.
 
 You're welcome to download, fork or do whatever else legal with all the files!
@@ -13,7 +13,7 @@ Here are the lectures of the course for this section...
 
 1. Why You Should Buy This Course
 1. Welcome To The Course
-
+1. Start Designing Your RPG
 ---
 Thanks for visiting, and enjoy your stay
 
