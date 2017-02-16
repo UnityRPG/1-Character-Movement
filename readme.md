@@ -12,7 +12,7 @@ This branch is the course branch, each commit corresponds to a lecture in the co
 Here are the lectures of the course for this section...
 
 1. Why You Should Buy This Course
-
+1. Welcome To The Course
 
 ---
 Thanks for visiting, and enjoy your stay
