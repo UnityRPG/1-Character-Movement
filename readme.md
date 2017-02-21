@@ -14,6 +14,14 @@ Here are the lectures of the course for this section...
 1. Why You Should Buy This Course
 1. Welcome To The Course
 1. Start Designing Your RPG
+1. Set Up A Combat Sandbox
+1. A Simple DIY Follow Camera
+1. Pan And Tilt Camera Options
+1. Prototyping With Placeholders
+1. Using Raycasts To Query Click
+1. Click Mouse To Move
+1. Gamepad Movement Mode
+
 ---
 Thanks for visiting, and enjoy your stay
 
