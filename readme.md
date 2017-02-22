@@ -20,7 +20,7 @@ Here are the lectures of the course for this section...
 1. Prototyping With Placeholders
 1. Using Raycasts To Query Click
 1. Click Mouse To Move
-1. Gamepad Movement Mode
+1. Work Breakdown Structure
 
 ---
 Thanks for visiting, and enjoy your stay
