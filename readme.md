@@ -21,6 +21,9 @@ Here are the lectures of the course for this section...
 1. Using Raycasts To Query Click
 1. Click Mouse To Move
 1. Work Breakdown Structure
+1. Organizing Project For Teamwork
+1. Using Cursor Affordances
+1. Most Important Combat Feature
 
 ---
 Thanks for visiting, and enjoy your stay
