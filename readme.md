@@ -24,6 +24,9 @@ Here are the lectures of the course for this section...
 1. Organizing Project For Teamwork
 1. Using Cursor Affordances
 1. Most Important Combat Feature
+1. Gamepad Movement Mode
+1. Onion Design
+1. The Player Experience
 
 ---
 Thanks for visiting, and enjoy your stay
