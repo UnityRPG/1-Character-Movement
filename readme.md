@@ -13,11 +13,13 @@ Here are the lectures of the course for this section...
 
 1. Why You Should Buy This Course
 1. Welcome To The Course
+1. About Character Movement
 1. Start Designing Your RPG
 1. Set Up A Combat Sandbox
 1. A Simple DIY Follow Camera
 1. Pan And Tilt Camera Options
 1. Prototyping With Placeholders
+1. Raycasting And Layer Masks
 1. Using Raycasts To Query Click
 1. Click Mouse To Move
 1. Work Breakdown Structure
@@ -27,6 +29,10 @@ Here are the lectures of the course for this section...
 1. Gamepad Movement Mode
 1. Onion Design
 1. The Player Experience
+1. TODOs And Bug Fixes
+1. The Observer Pattern
+
+... more lectures coming soon!
 
 ---
 Thanks for visiting, and enjoy your stay
