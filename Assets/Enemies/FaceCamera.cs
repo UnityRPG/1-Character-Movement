@@ -1,17 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using RPG;
 
-public class NPC_UI : MonoBehaviour {
+// Add a UI Socket transform to your enemy
+// Attack this script to the socket
+// Link to a canvas prefab that contains NPC UI
+public class FaceCamera : MonoBehaviour {
 
+    // Works around Unity 5.5's lack of nested prefabs
+    [Tooltip("The UI canvas prefab")]
     [SerializeField]
-    [Tooltip("Select the NPC AI prefab")]
     GameObject npcUIPrefab = null;
 
     Camera cameraToLookAt;
-    Enemy enemy;
 
     // Use this for initialization 
     void Start()
@@ -23,7 +23,6 @@ public class NPC_UI : MonoBehaviour {
     // Update is called once per frame 
     void LateUpdate()
     {
-        //var directionToLook = Quaternion.LookRotation(cameraToLookAt.transform.position - transform.position); 
         transform.LookAt(cameraToLookAt.transform);
         transform.rotation = Quaternion.LookRotation(cameraToLookAt.transform.forward);
     }
