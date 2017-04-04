@@ -59,29 +59,29 @@ Here are the lectures of the course for this section, including their "In this v
 ### A Simple DIY Follow Camera ###
 
 + Set up a camera arm
-+ Position a fixed camera
-+ Tag camera and player
-+ Write a small script
-+ CHALLENGE.
++ Position a fixed camera 
++ Tag camera and player 
++ Write a small script 
++ CHALLENGE. 
 
 (Unique Video Reference: 5_CM_RPG)
 
 ### Pan And Tilt Camera Options ###
 
 + Investigate Unity’s standard cameras pack
-+ Positioning the Free Look camera
-+ Why we’re choosing a fixed camera
-+ CHALLENGE.
++ Positioning the Free Look camera 
++ Why we’re choosing a fixed camera 
++ CHALLENGE. 
 
 (Unique Video Reference: 6_CM_RPG)
 
 ### Prototyping With Placeholders ###
 
-+ Prototyping requires pretending
-+ Add placeholder blocks and enemies
-+ Tighten movement and camera
-+ Write down ideas and questions
-+ CHALLENGE.
++ Prototyping requires pretending 
++ Add placeholder blocks and enemies 
++ Tighten movement and camera 
++ Write down ideas and questions 
++ CHALLENGE. 
 
 (Unique Video Reference: 7_CM_RPG)
 
@@ -100,7 +100,7 @@ Here are the lectures of the course for this section, including their "In this v
 + Raycasting explained
 + Assign layers for raycasting
 + Import and review CameraRaycaster.cs
-+ CHALLENGE.
++ CHALLENGE. 
 
 (Unique Video Reference: 8_CM_RPG)
 
@@ -116,28 +116,28 @@ Here are the lectures of the course for this section, including their "In this v
 ### Work Breakdown Structure ###
 
 + As Indie developers we wear many hats
-+ What are we building?
-+ What is a Work Breakdown Structure
-+ CHALLENGE.
++ What are we building? 
++ What is a Work Breakdown Structure 
++ CHALLENGE. 
 
 (Unique Video Reference: 10_CM_RPG)
 
 ### Organizing Project For Teamwork ###
 
 + Using GameObject > Clear Parent
-+ Create separate Player and Enemy prefabs
-+ Organise folders by game object type
-+ CHALLENGE.
++ Create separate Player and Enemy prefabs 
++ Organise folders by game object type 
++ CHALLENGE. 
 
 (Unique Video Reference: 11_CM_RPG)
 
 ### Using Cursor Affordances ###
 
 + How to rename a C# script in Unity 5
-+ Why we need affordances
-+ Import cursor artwork
-+ Start writing CursorAffordance.cs
-+ CHALLENGE.
++ Why we need affordances 
++ Import cursor artwork 
++ Start writing CursorAffordance.cs 
++ CHALLENGE. 
 
 (Unique Video Reference: 12_CM_RPG
 
@@ -153,8 +153,8 @@ Here are the lectures of the course for this section, including their "In this v
 ### Gamepad Movement Mode ###
 
 + Simplify & debug current movement code
-+ Optional: implement direct movement
-+ CHALLENGE
++ Optional: implement direct movement 
++ CHALLENGE 
 
 (Unique Video Reference: 14_CM_RPG)
 
@@ -221,11 +221,5 @@ Here are the lectures of the course for this section, including their "In this v
 
 (Unique Video Reference: XX_CM_RPG)
 
-## What's Next?
-For the next exciting section in [our course](https://www.udemy.com/unityrpg) visit https://github.com/UnityRPG/2-Core-Combat.
-
-Thanks for visiting, and enjoy your stay
-
-Ben & The Team
-
-[GameDev.tv](https://community.gamedev.tv)
+---
+Find out more about our [Unity RPG Creator Course Series](https://www.udemy.com/unityrpg/?couponCode=GitHubDiscount).
