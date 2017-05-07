@@ -59,29 +59,29 @@ Here are the lectures of the course for this section, including their "In this v
 ### A Simple DIY Follow Camera ###
 
 + Set up a camera arm
-+ Position a fixed camera 
-+ Tag camera and player 
-+ Write a small script 
-+ CHALLENGE. 
++ Position a fixed camera
++ Tag camera and player
++ Write a small script
++ CHALLENGE.
 
 (Unique Video Reference: 5_CM_RPG)
 
 ### Pan And Tilt Camera Options ###
 
 + Investigate Unity’s standard cameras pack
-+ Positioning the Free Look camera 
-+ Why we’re choosing a fixed camera 
-+ CHALLENGE. 
++ Positioning the Free Look camera
++ Why we’re choosing a fixed camera
++ CHALLENGE.
 
 (Unique Video Reference: 6_CM_RPG)
 
 ### Prototyping With Placeholders ###
 
-+ Prototyping requires pretending 
-+ Add placeholder blocks and enemies 
-+ Tighten movement and camera 
-+ Write down ideas and questions 
-+ CHALLENGE. 
++ Prototyping requires pretending
++ Add placeholder blocks and enemies
++ Tighten movement and camera
++ Write down ideas and questions
++ CHALLENGE.
 
 (Unique Video Reference: 7_CM_RPG)
 
@@ -100,13 +100,13 @@ Here are the lectures of the course for this section, including their "In this v
 + Raycasting explained
 + Assign layers for raycasting
 + Import and review CameraRaycaster.cs
-+ CHALLENGE. 
++ CHALLENGE.
 
 (Unique Video Reference: 8_CM_RPG)
 
 ### Click Mouse To Move ###
 
-+ How the **ThirdPersonCharacter **moves
++ How the **ThirdPersonCharacter** moves
 + Import & review **PlayerMovement.cs**
 + CHALLENGE
 + Resolve any major movement bugs.
@@ -116,28 +116,36 @@ Here are the lectures of the course for this section, including their "In this v
 ### Work Breakdown Structure ###
 
 + As Indie developers we wear many hats
-+ What are we building? 
-+ What is a Work Breakdown Structure 
-+ CHALLENGE. 
++ What are we building?
++ What is a Work Breakdown Structure
++ CHALLENGE.
 
 (Unique Video Reference: 10_CM_RPG)
+
+### Instructor Hangout 1.1
+
++ What we have covered so far
++ Answers to common questions
++ What's coming up in the next 10 lectures.
+
+(Unique Video Reference: 10b_CM_RPG)
 
 ### Organizing Project For Teamwork ###
 
 + Using GameObject > Clear Parent
-+ Create separate Player and Enemy prefabs 
-+ Organise folders by game object type 
-+ CHALLENGE. 
++ Create separate Player and Enemy prefabs
++ Organise folders by game object type
++ CHALLENGE.
 
 (Unique Video Reference: 11_CM_RPG)
 
 ### Using Cursor Affordances ###
 
 + How to rename a C# script in Unity 5
-+ Why we need affordances 
-+ Import cursor artwork 
-+ Start writing CursorAffordance.cs 
-+ CHALLENGE. 
++ Why we need affordances
++ Import cursor artwork
++ Start writing CursorAffordance.cs
++ CHALLENGE.
 
 (Unique Video Reference: 12_CM_RPG
 
@@ -153,8 +161,8 @@ Here are the lectures of the course for this section, including their "In this v
 ### Gamepad Movement Mode ###
 
 + Simplify & debug current movement code
-+ Optional: implement direct movement 
-+ CHALLENGE 
++ Optional: implement direct movement
++ CHALLENGE
 
 (Unique Video Reference: 14_CM_RPG)
 
