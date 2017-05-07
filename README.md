@@ -122,7 +122,7 @@ Here are the lectures of the course for this section, including their "In this v
 
 (Unique Video Reference: 10_CM_RPG)
 
-### Instructor Hangout 1.1
+### Instructor Hangout 1.1 ###
 
 + What we have covered so far
 + Answers to common questions
@@ -190,7 +190,7 @@ Here are the lectures of the course for this section, including their "In this v
 + Fix bug with cursor?
 + CHALLENGE.
 
-(Unique Video Reference: 17_CM_RPG )
+(Unique Video Reference: 17_CM_RPG)
 
 ### The Observer Pattern ###
 
@@ -199,7 +199,7 @@ Here are the lectures of the course for this section, including their "In this v
 + The benefits of the pattern
 + CHALLENGE.
 
-(Unique Video Reference: 18_CM_RPG )
+(Unique Video Reference: 18_CM_RPG)
 
 ### Using Delegates In C# ###
 
@@ -210,7 +210,7 @@ Here are the lectures of the course for this section, including their "In this v
 + Call the delegate
 + CHALLENGE.
 
-(Unique Video Reference: 19_CM_RPG )
+(Unique Video Reference: 19_CM_RPG)
 
 ### The Event Keyword In C# ###
 
@@ -219,7 +219,12 @@ Here are the lectures of the course for this section, including their "In this v
 + Adding a parameter to our delegate functions
 + CHALLENGE.
 
-(Unique Video Reference: 20_CM_RPG )
+(Unique Video Reference: 20_CM_RPG)
+
+### Instructor Hangout 1.2 ###
++ Answers to common questions
+
+(Unique Video Reference: 20b_CM_RPG)
 
 ### Section 1 Wrap Up ###
 
