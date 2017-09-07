@@ -1,7 +1,7 @@
-## Unity RPG Course - Section 1 - Combat Moment
-Part of our upcoming RPG course, see our course list [here](https://www.udemy.com/u/bentristem/). The full course is part of [this ](https://www.udemy.com/draft/1110626/?instructorPreviewMode=guest&password=earlyaccess) kickstarter campaign which was over 200% funded.
+# Unity RPG Course - Section 1 - Combat Moment
+Part of our upcoming RPG course, see our course list [here](https://www.udemy.com/u/bentristem/). The full course is part of [this](https://www.udemy.com/draft/1110626/?instructorPreviewMode=guest&password=earlyaccess) kickstarter campaign which was over 200% funded.
 
-You're welcome to download, fork or do whatever else legal with all the files!
+You're welcome to download, fork or do whatever else legal with all the files! Please note that future sections contain assets with commecial use restrictions.
 
 ## How To Build / Compile
 This is a Unity project. If you're familiar with source control, then "clone this repo". Otherwise download the contents, and navigate to `Assets > Levels` then open any `.unity` file.
